@@ -1,0 +1,16 @@
+adi: Marmaris Yaş Grupları Satranç Şampiyonası
+
+turnuva-durum: 1
+kategoriler: A
+tsf-turnuva-no: 1427
+
+programlar:
+  - program:
+       adi: A
+       tablo:
+           - gun: 10 Aralık 2009 Perşembe
+             turlar: Son Başvuru-19:00
+           - gun: 12 Aralık 2009 Cumartesi
+             turlar: Teknik Toplantı-09:00; 1.Tur-10:00; 2.Tur-12:30; 3.Tur-15:00
+           - gun: 13 Aralık 2009 Pazar
+             turlar: 4.Tur-10:00; 5.Tur-12:30; 6.Tur-15:00; Ödül Töreni-18:00

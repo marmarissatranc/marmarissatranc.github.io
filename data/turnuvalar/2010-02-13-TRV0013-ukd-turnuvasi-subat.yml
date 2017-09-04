@@ -1,0 +1,17 @@
+adi: Marmaris Belediyesi GSK Şubat Ayı UKD Satranç Turnuvası
+
+turnuva-durum: 1
+kategoriler: A
+tsf-turnuva-no: 1585
+
+
+programlar:
+  - program:
+       adi: A
+       tablo:
+           - gun: 12 Şubat 2010 Cuma
+             turlar: Son Başvuru-19:00
+           - gun: 13 Şubat 2010 Cumartesi
+             turlar: Teknik Toplantı-11:30; 1.Tur-13:00; 2.Tur-15:30; 3.Tur-18:00
+           - gun: 14 Şubat 2010 Pazar
+             turlar: 4.Tur-10:00; 5.Tur-13:00; 6.Tur-15:30; Ödül Töreni-18:00

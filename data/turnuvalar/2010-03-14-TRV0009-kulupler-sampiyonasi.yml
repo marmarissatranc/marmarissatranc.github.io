@@ -1,0 +1,17 @@
+adi: Türkiye Kulüpler Satranç Şampiyonası Muğla İl Yarışmaları Göl Grubu
+
+turnuva-durum: 1
+kategoriler: A
+tsf-turnuva-no:
+
+
+programlar:
+  - program:
+       adi: A
+       tablo:
+           - gun: 14 Mart 2010 Pazar
+             turlar: Teknik Toplantı-10:00; 1.Tur-11:00; 2.Tur-15:00
+           - gun: 29 Mayıs 2010 Cumartesi
+             turlar: 3.Tur-15:00
+           - gun: 30 Mayıs 2010 Pazar
+             turlar: 4.Tur-10:00; 5.Tur-14:00

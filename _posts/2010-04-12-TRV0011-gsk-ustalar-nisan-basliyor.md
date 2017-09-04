@@ -1,0 +1,41 @@
+---
+title: Ustalar Buluşuyor...
+---
+
+Nisan Ayı Ustalar Satranç Turnuvası 17- 18 Nisan 2010 tarihlerinde Marmaris Belediyesi Yüzme Eğitim Merkezi'nde gerçekleşiyor.
+
+30 Kişi ile sınırlı olan ve sadece davetli sporcuların katılacağı turnuvanın davetli listesini Haberin Devamında görebilirsiniz.
+
+Turnuva yönergesine, maç programına  eşlendirme ve sonuçlara turnuva sayfasından ulaşabilirsiniz.
+
+ 	AD SOYAD	KATILIM YERİ	UKD  
+1	ÖZGÜR MURAT AĞCA	MARMARİS	1885  
+2	CENK YÜZSEVER	MARMARİS	1836  
+3	OSMAN TİRİÇ	FETHİYE	1813  
+4	YILMAZ SÜLÜKÇÜ	DATÇA	1810  
+5	MERT ÖZATEŞ	MUĞLA	1797  
+6	EKİNSU ERTÜRK	KÖYCEĞİZ	1767  
+7	SEZGİN TÜTÜNCÜ	MUĞLA	1759  
+8	NURİ DEMİR	ORTACA	1756  
+9	CENGİZ ŞATIR	ORTACA	1752  
+10	AHMET EGEMEN KARAKAŞ	DALYAN	1724  
+11	ERMAN GÖKKAYA	MARMARİS	1695  
+12	ENGİN KESKİN	MUĞLA	1670  
+13	SİNAN SAKAOĞLU	MARMARİS	1664  
+14	ZİVER ASLAN	MARMARİS	1633  
+15	SEZAY TÜTÜNCÜ	MUĞLA	1629  
+16	KEREM AKTAŞ	MARMARİS	1575  
+17	YAVUZHAN ŞAHİN	MARMARİS	1536  
+18	ZAFER PEKÇEDENÖZ	MUĞLA	1532  
+19	İBRAHİM ÇAP	DATÇA	1482  
+20	KEREM NURİ GÜRBÜZ	ORTACA	1465  
+21	EGE KARGIN	MARMARİS	1463  
+22	MERT BERK	MARMARİS	1420  
+23	ARMAĞAN ŞENCAN	MARMARİS	1392  
+24	ALİ GÜRDOĞAN	MARMARİS	1383  
+25	OZAN TUNA YAKAR	FETHİYE	1346  
+26	JERFİ CÖN	MARMARİS	1279  
+27	ABDULLAH DOĞUKAN DERE	DATÇA	1246  
+28	BENGİ AĞCA	MARMARİS	1241  
+29	YAŞAR AYDIN	MARMARİS	1211  
+30	MEHMET GÖKMEN	MARMARİS	1173  
