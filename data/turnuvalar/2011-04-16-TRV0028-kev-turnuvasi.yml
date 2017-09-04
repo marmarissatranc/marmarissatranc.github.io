@@ -1,0 +1,29 @@
+adi: KEV Özel Marmaris Koleji 2. Satranç Şenliği
+
+turnuva-durum: 1
+kategoriler: A
+tsf-turnuva-no: 2521
+
+programlar:
+  - program:
+       adi: A
+       tablo:
+           - gun: 16 Nisan 2011 Cumartesi
+             turlar: Teknik Toplantı-11:30; 1.Tur-13:00; 2.Tur-15:00; 3.Tur-17:00
+           - gun: 17 Nisan 2011 Pazar
+             turlar: 4.Tur-10:00; 5.Tur-12:00; 6.Tur-14:00; Ödül Töreni-16:00
+
+
+oduller:
+  - kategori:
+      adi: A
+      oduller: 1. Fotoğraf Makinesi ve Madalya; 2. Philips Marka MP3Çalar ve Madalya; 3. Akın Optik'ten 200 TL'lik Hediye Çeki ve Madalya
+      kazananlar: 1. Kerem AKTAŞ; 2. Osman YATKIN; 3. Engin KESKİN
+  - kategori:
+      adi: B
+      oduller: 1. Bisiklet ve Madalya; 2. T-tec Marka MP3 Çalar ve Madalya; 3. Samsung Marka Cep Telefonu ve Madalya
+      kazananlar: 1. Mehmet GÖKMEN; 2. Osman ÇELİK; 3. Gürkan ŞANLI
+  - kategori:
+      adi: C
+      oduller: 1. Bisiklet ve Madalya; 2. LG Marka Cep Telefonu ve Madalya; 3. Cannel Marka Saat ve Madalya
+      kazananlar: 1. Kaan TUFAN; 2. Berkay TEKERDEN; 3. Hazar DEĞERTAŞ

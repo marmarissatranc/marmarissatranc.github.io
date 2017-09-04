@@ -1,0 +1,6 @@
+---
+title: Kupalar Sahiplerini Bekliyor...
+---
+
+Kupalar sahiplerini bekliyor...
+21-22 Mayıs 2011 tarihlerinde Yüzme Eğitim Merkezi'nde gerçekleştirilecek "Marmaris Belediyesi Başkanlık Kupası Satranç Turnuvası" için başvurular sona ermiştir.

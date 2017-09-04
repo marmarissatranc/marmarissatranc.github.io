@@ -1,0 +1,14 @@
+adi: Marmaris 2011 Takımlar Satranç Turnuvası
+
+turnuva-durum: 1
+kategoriler: A
+tsf-turnuva-no: 2767
+
+programlar:
+  - program:
+       adi: A
+       tablo:
+           - gun: 8 Haziran 2011 Çarşamba
+             turlar: Teknik Toplantı-15:30; 1.Tur-16:00; 2.Tur-17:30; 3.Tur-19:00
+           - gun: 9 Haziran 2011 Perşembe
+             turlar: 4.Tur-16:00; 5.Tur-17:30; Ödül Töreni-19:00

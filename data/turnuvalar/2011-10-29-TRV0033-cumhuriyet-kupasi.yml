@@ -1,0 +1,32 @@
+adi: Marmaris 8. Geleneksel Atatürk ve Cumhuriyet Satranç Turnuvası
+
+turnuva-durum: 1
+kategoriler: A
+tsf-turnuva-no: 2947
+
+programlar:
+  - program:
+       adi: A
+       tablo:
+           - gun: 29 Ekim 2011 Cumartesi
+             turlar: Teknik Toplantı-11:30; 1.Tur-14:300; 2.Tur-16:00; 3.Tur-18:00
+           - gun: 30 Ekim 2011 Pazar
+             turlar: 4.Tur-10:00; 5.Tur-13:00; 6.Tur-15:00; Ödül Töreni-17:00
+
+oduller:
+  - kategori:
+      adi: Gençler
+      oduller: 1. Çeyrek Altın ve Kupa; 2. Sürpriz Hediye ve Kupa; 3. Sürpriz Hediye ve Kupa
+      kazananlar: 1. Osman Yatkın
+  - kategori:
+      adi: Yıldızlar
+      oduller: 1. Çeyrek Altın ve Kupa; 2. Sürpriz Hediye ve Kupa; 3. Sürpriz Hediye ve Kupa
+      kazananlar: 1. Kerem Aktaş
+  - kategori:
+      adi: Küçükler
+      oduller: 1. Çeyrek Altın ve Kupa; 2. Sürpriz Hediye ve Kupa; 3. Sürpriz Hediye ve Kupa
+      kazananlar: 1. Ozan Tuna Yakar
+  - kategori:
+      adi: Minikler
+      oduller: Madalya
+      kazananlar: Katılan tüm sporculara

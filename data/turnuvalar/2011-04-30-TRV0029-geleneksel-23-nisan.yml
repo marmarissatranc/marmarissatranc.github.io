@@ -1,0 +1,33 @@
+adi: Marmaris 23 Nisan Ödüllü Satranç Şenliği
+
+turnuva-durum: 1
+kategoriler: A
+tsf-turnuva-no: 2622
+
+programlar:
+  - program:
+       adi: A
+       tablo:
+           - gun: 30 Nisan 2011 Cumartesi
+             turlar: Teknik Toplantı-12:30; 1.Tur-13:00; 2.Tur-15:00; 3.Tur-17:00
+           - gun: 1 Mayıs 2011 Pazar
+             turlar: 4.Tur-10:00; 5.Tur-12:00; 6.Tur-14:00; Ödül Töreni-16:00
+
+
+oduller:
+  - kategori:
+      adi: A
+      oduller: 1. Bisiklet, Plaket, Madalya; 2. Emre Optik'ten 100 TL'lik Hediye Çeki, Plaket, Madalya; 3. Kol Saati, Plaket, Madalya
+      kazananlar: 1. Soner Çalışkan; 2. Osman Yatkın; 3. Kerem Aktaş
+  - kategori:
+      adi: B
+      oduller: 1. Bisiklet, Plaket, Madalya; 2. Emre Optik'ten 100 TL'lik Hediye Çeki, Plaket, Madalya; 3. Kol Saati, Plaket, Madalya
+      kazananlar: 1. Ozan Tuna Yakar; 2. Mehmet Gökmen; 3. Şaban Çetin
+  - kategori:
+      adi: C
+      oduller: 1. Bisiklet, Plaket, Madalya; 2. Emre Optik'ten 100 TL'lik Hediye Çeki, Plaket, Madalya; 3. Kol Saati, Plaket, Madalya
+      kazananlar: 1. Rahan Özer; 2. Kaan Kamil Uzunay; 3. Uğurcan Dözen
+  - kategori:
+      adi: D
+      oduller: Madalya
+      kazananlar: Katılan tüm sporculara

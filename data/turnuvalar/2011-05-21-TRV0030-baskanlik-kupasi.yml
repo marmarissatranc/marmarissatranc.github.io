@@ -1,0 +1,33 @@
+adi: Marmaris Belediyesi Başkanlık Kupası Satranç Turnuvası
+
+turnuva-durum: 1
+kategoriler: A
+tsf-turnuva-no: 2691
+
+programlar:
+  - program:
+       adi: A
+       tablo:
+           - gun: 21 Mayıs 2011 Cumartesi
+             turlar: Teknik Toplantı-12:30; 1.Tur-13:00; 2.Tur-15:00; 3.Tur-17:00
+           - gun: 22 Mayıs 2011 Pazar
+             turlar: 4.Tur-10:00; 5.Tur-12:00; 6.Tur-14:00; Ödül Töreni-16:00
+
+
+oduller:
+  - kategori:
+      adi: A
+      oduller: 1. Tam altın ve Kupa; 2. Yarım altın ve Kupa, Plaket, Madalya; 3. Çeyrek altın ve Kupa
+      kazananlar: 1. Sinan Sakaoğlu; 2. Osman Yatkın; 3. Soner Çalışkan
+  - kategori:
+      adi: B
+      oduller: 1. Tam altın ve Kupa; 2. Yarım altın ve Kupa, Plaket, Madalya; 3. Çeyrek altın ve Kupa
+      kazananlar: 1. Ferat Caner Hafızoğlu; 2. Serhan Berat Özdemir; 3. Gürkan Şanlı
+  - kategori:
+      adi: C
+      oduller: 1. Tam altın ve Kupa; 2. Yarım altın ve Kupa, Plaket, Madalya; 3. Çeyrek altın ve Kupa
+      kazananlar: 1. Yunus Mermer	; 2. Uğurcan Dözen; 3. Göktuğ Emir Tuna
+  - kategori:
+      adi: D
+      oduller: Madalya
+      kazananlar: Katılan tüm sporculara
