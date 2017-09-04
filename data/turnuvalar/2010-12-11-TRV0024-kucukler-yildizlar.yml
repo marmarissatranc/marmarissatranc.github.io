@@ -1,0 +1,14 @@
+adi: 2010-2011 TSF Marmaris Küçükler Yıldızlar Satranç Şampiyonası
+
+turnuva-durum: 1
+kategoriler: A
+tsf-turnuva-no: 2146
+
+programlar:
+  - program:
+       adi: A
+       tablo:
+           - gun: 11 Aralık 2010 Cumartesi
+             turlar: Teknik Toplantı-12:15; 1.Tur-13:00; 2.Tur-15:00
+           - gun: 12 Aralık 2010 Pazar
+             turlar: 3.Tur-10:00; 5.Tur-13:00; Ödül Töreni-15:00
