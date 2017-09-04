@@ -74,18 +74,18 @@
                 {%- if post_image == '' -%}
                   {%- assign post_image = site.data.constants.post-default-image -%}
                 {%- endif -%}
-                <div class="col-xs-4 col-sm-3 col-md-3">
+                <div class="col-xs-12 col-sm-3 col-md-3">
                     <a href="{{ post.url | prepend: site.github.url }}">
-                    <img src="{{ site.github.url }}{{site.data.constants.image_path}}{{ post_image }}" alt="" class="img-responsive img-thumbnail" style="margin-top:15px">
+                    <img src="{{ site.github.url }}{{site.data.constants.image_path}}{{ post_image }}" alt="" class="img-responsive img-thumbnail center-block" style="margin-top:15px">
                     </a>
                 </div>
 
-                <div class="col-xs-8 col-sm-9 col-md-9">
+                <div class="col-xs-12 col-sm-9 col-md-9">
 
+                    <h4><a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a></h4>
                     <p class="text-muted text-right">
                         {% include date_format.html %}
                     </p>
-                    <h4><a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a></h4>
                     <p>
                         {{ post.content | strip_html | truncatewords: 50 }}
                         <a href="{{ post.url | prepend: site.github.url }}"> devamı</a>
