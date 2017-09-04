@@ -1,0 +1,45 @@
+<h3>{{ post.title }}</h3>
+<p class="text-muted text-left">
+    {% include date_format.html %}
+</p>
+
+{% include image_select.html %}
+{%- if post_image != '' -%}
+  <img src="{{ site.github.url }}{{site.data.constants.image_path}}{{ post_image }}" alt="" class="img-responsive img-thumbnail center-block" style="margin-top:15px">
+{%- endif -%}
+<div class="tables-start"></div>
+<p>{{ post.content }}</p>
+<div class="tables-end"></div>
+
+{%- if dataname and post.ukd == 1 and pagedata.tsf-turnuva-no -%}
+<p> <a href="{{site.data.constants.tsf-ukd-degisim-link}}{{ pagedata.tsf-turnuva-no }}" target="_blank">UKD değişimleri</a></p>
+{%- endif -%}
+
+{%- if dataname and post.ukd == 1 and pagedata.tsf-hizli-turnuva-no -%}
+<p> <a href="{{site.data.constants.tsf-hizli-ukd-degisim-link}}{{ pagedata.tsf-hizli-turnuva-no }}" target="_blank">UKD değişimleri</a></p>
+{%- endif -%}
+
+{%- if dataname and post.elo == 1 and pagedata.fide-turnuva-no -%}
+{%- assign fide-nos = pagedata.fide-turnuva-no | split: ";" -%}
+{% for fide-no in fide-nos %}
+<p> <a href="{{site.data.constants.fide-elo-degisim-link}}{{ fide-no | split: "-" | last | strip}}" target="_blank">ELO değişimleri-{{ fide-no | split: "-" | first | strip}}</a></p>
+{% endfor %}
+{%- endif -%}
+
+{%- if dataname and post.odul -%}
+{% include oduller.html kazanan=post.odul %}
+{%- endif -%}
+
+{% assign imagenames = site.data.constants.image_path | append: post_filename | append: '-' %}
+{%- for image in site.static_files -%}
+{%- if image.path contains imagenames and image.path contains 'images' -%}
+<div class="row">
+    <div class="col-md-12">
+        <img src="{{ site.github.url }}{{ image.path }}" class="img-responsive img-thumbnail center-block" alt="" style="margin-top:10px" />
+        {%- if post.resimler.size > 0 -%}
+        {%- assign imageno = image.path | split: '-' | last | split: '.' | first | minus: 1 -%}
+        <p class="text-center">{{post.resimler[imageno]}}</p>
+        {%- endif -%}
+    </div>
+</div>
+{%- endif -%} {%- endfor -%}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <div class="row">
+        <div class="col-md-9 col-sm-8 col-xs-12">
+            <div id="myCarousel" class="carousel slide" style="box-shadow: 0px 0px 5px #999" data-ride="carousel">
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    {%- for post in site.posts limit:5 -%}
+                    {% include image_select.html %}
+                    {%- if post_image == '' -%}
+                      {%- assign post_image = site.data.constants.carousel-default-image -%}
+                    {%- endif -%}
+                    <div class="item {% if forloop.index0 == 0 %}active {% endif %}">
+                        <img src="{{ site.github.url }}{{site.data.constants.image_path}}{{ post_image }}" style="min-width: 500px !important; max-width: 500px !important; max-height: 300px !important; min-height: 300px !important;">
+                        <div class="carousel-caption">
+                            <h4><a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a></h4>
+                            <p>{{ post.content | strip_html | truncatewords: 15 }}
+                            </p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                <!-- End Carousel Inner -->
+
+                <ul class="list-group col-sm-4" style="padding-right:0px;">
+
+                    {%- for post in site.posts limit:5 -%}
+                    <li data-target="#myCarousel" data-slide-to="{{ forloop.index0 }}" class="list-group-item {% if forloop.index0 == 0 %}active {% endif %}" style="line-height:1.25;padding:3px 10px">
+                        <strong><small>{{ post.title }}</small></strong>
+                        <p>
+                            <small> {% include date_format.html %} </small>
+                        </p>
+                    </li>
+                    {%- endfor -%}
+                </ul>
+
+                <!-- Controls -->
+                <div class="carousel-controls">
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+
+            </div>
+            <!-- End Carousel -->
+
+        </div>
+
+        <div class="col-md-3 col-sm-4 hidden-xs">
+            <div class="thumbnail">
+                <img src="{{ site.github.url }}{{ site.data.constants.image_path }}logo300.png" alt="" class="img-responsive">
+                <div class="caption">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-9">
+            <hr> {% assign poffset = paginator.page | times:5 %} {% assign ptotal = paginator.total_pages | minus:1 %} {%- for post in site.posts limit:5 offset:poffset -%}
+            <div class="row">
+                {% include image_select.html %}
+                {%- if post_image == '' -%}
+                  {%- assign post_image = site.data.constants.post-default-image -%}
+                {%- endif -%}
+                <div class="col-xs-4 col-sm-3 col-md-3">
+                    <a href="{{ post.url | prepend: site.github.url }}">
+                    <img src="{{ site.github.url }}{{site.data.constants.image_path}}{{ post_image }}" alt="" class="img-responsive img-thumbnail" style="margin-top:15px">
+                    </a>
+                </div>
+
+                <div class="col-xs-8 col-sm-9 col-md-9">
+
+                    <p class="text-muted text-right">
+                        {% include date_format.html %}
+                    </p>
+                    <h4><a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a></h4>
+                    <p>
+                        {{ post.content | strip_html | truncatewords: 50 }}
+                        <a href="{{ post.url | prepend: site.github.url }}"> devamı</a>
+                    </p>
+                </div>
+            </div>
+            <hr> {%- endfor -%}
+
+        <div class="text-center">
+          <nav aria-label="Page navigation">
+            <ul class="pagination">
+              <li class="">
+                <a href="{{ site.github.url }}/" aria-label="Baslangic">
+                  <span aria-hidden="true">İlk</span>
+                </a>
+              </li>
+              <li class="{% if paginator.page == 1 %}disabled{% endif %}">
+                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous">
+                  <span aria-hidden="true">&laquo; Geri</span>
+                </a>
+              </li>
+                  {% if paginator.page < 6 %}
+                      {% assign pbasla = 1 %}
+                      {% assign pbitir = 10 %}
+                  {% else %}
+                      {% assign pbasla = paginator.page | minus: 4 %}
+                      {% assign pbitir = paginator.page | plus: 5 %}
+                  {% endif %}
+
+                  {% if pbitir > ptotal %}
+                      {% assign pbasla = ptotal | minus: 9 %}
+                      {% assign pbitir = ptotal %}
+                  {% endif %}
+
+                  {% for page in (pbasla..pbitir) %}
+                      {% if page == 1 %}
+                       <li class="{% if page == paginator.page %}active{% endif %}"><a href="{{ site.github.url }}/">1</a></li>
+                      {% else %}
+                        <li class="{% if page == paginator.page %}active{% endif %}"><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+                      {% endif %}
+                  {% endfor %}
+
+              <li class="{% if paginator.page == ptotal %}disabled{% endif %}">
+                <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next">
+                  <span aria-hidden="true">İleri &raquo;</span>
+                </a>
+              </li>
+              <li class="">
+                <a href="{{ site.github.url }}/{{ptotal}}" aria-label="Son">
+                  <span aria-hidden="true">Son</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        </div>
+        <div class="col-md-3">
+            {% include sponsor.html %}
+            <p class="text-center">
+                <script src="https://en.lichess.org/tv/embed?theme=auto&bg=auto"></script>
+            </p>
+            <hr>
+            <p class="text-center">
+                <script src="https://en.lichess.org/training/embed?theme=auto&bg=auto"></script>
+            </p>
+            <hr>
+            <div class="thumbnail">
+                <a href="https://lisans.tsf.org.tr/online/" target="_blank">
+                    <img src="{{ site.github.url }}{{site.data.constants.image_path}}banner_lisans.jpg" alt="" class="img-responsive">
+                </a>
+                <a href="http://ukd.tsf.org.tr/" target="_blank">
+                    <img src="{{ site.github.url }}{{site.data.constants.image_path}}banner_ukd.jpg" alt="" class="img-responsive">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    {% include footer.html %}
+    <script src="{{ site.github.url }}/assets/js/home.js"></script>
+
+    {% include google_analytics.html %}
+</body>
+
+</html>

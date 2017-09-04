@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+{% include head.html %}
+
+<body>
+
+{% include header.html %}
+{%- assign post = page -%}
+
+{% assign post_filename = post.path | replace_first: '_posts/', '' | replace_first: '.md', '' %}
+{% assign post_filename_s = post_filename | split: '-' %}
+
+{%- if post_filename_s[3] contains 'TRV' -%}
+    {%- for myfile in site.static_files -%}
+      {%- if myfile.path contains 'data/turnuvalar/' and  myfile.path contains post_filename_s[3] -%}
+        {%- assign dataname = myfile.basename -%}
+        {%- assign pagedata = site.data.turnuvalar[dataname] -%}
+      {%- endif -%}
+
+    {%- endfor -%}
+{%- endif -%}
+
+    <div class="row">
+
+        <div class="col-md-3">
+
+            {% include turnuva/menu.html %}
+            {%- unless dataname -%}
+            <div style="height:12px"> </div>
+            {%- endunless -%}
+            <div class="hidden-xs hidden-sm">
+                {% include sponsor.html %}
+            </div>
+        </div>
+
+        <div class="col-md-9">
+          {%- if dataname -%}
+          <p class="text-primary text-center" style="font-size:20px"> {{ pagedata.adi }}</p>
+              <hr style="margin-top:12px">
+          {%- endif -%}
+          <div class="row">
+            <div class="col-md-12">
+              {%- include post_inner.html -%}
+            </div>
+
+          </div>
+        </div>
+
+    </div>
+
+<div class="visible-xs-block visible-sm-block">
+    <div class="row">
+        <div class="col-md-12">
+            <hr>
+            {% include sponsor.html %}
+        </div>
+    </div>
+</div>
+
+    {% include footer.html %} {% include google_analytics.html %}
+</body>
+
+</html>

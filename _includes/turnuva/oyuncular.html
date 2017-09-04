@@ -1,0 +1,21 @@
+<h4> Başvuran Oyuncular </h4>
+{{ content }}
+
+<div class="row">
+    <div class="col-md-12">
+
+{%- if pagedata.turnuva-durum == 1 -%}
+        <h4>Başvurular sona ermiştir. Oyuncu listelerini <a href="{{ site.github.url }}/turnuvalar/{{ dataname }}/sonuclar">sonuçlar</a> sayfasında görebilirsiniz.</h4>
+{%- else -%}
+        {%- if pagedata.basvuru-listesi -%}
+            <p class="bg-warning"><h4>Başvurunuzun oyuncular listesine eklenmesi zaman alabilir. Tekrar başvurmanıza gerek yoktur.</h4></p>
+        {%- endif -%}
+{%- endif -%}
+
+<h4>İletişim için: {{ site.data.constants.contact }}</h4>
+{%- if pagedata.basvuru-listesi -%}
+    {{ pagedata.basvuru-listesi }}
+{%- endif -%}
+
+    </div>
+</div>

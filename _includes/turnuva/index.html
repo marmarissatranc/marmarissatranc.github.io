@@ -1,0 +1,14 @@
+{{ content }}
+
+{%- for post in site.posts -%}
+{%- if post.path contains turnuva_kodu -%}
+<div class="row">
+
+  <div class="col-md-12">
+    {%- include post_inner.html -%}
+  </div>
+
+</div>
+<hr>
+{%- endif -%}
+{% endfor %}

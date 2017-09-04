@@ -1,0 +1,14 @@
+{{ content }}
+{%- if pagedata.konaklama -%}
+{%- for post in site.posts -%}
+
+{%- if post.path contains pagedata.konaklama  -%}
+    <div class="row">
+      {% include post_inner.html %}
+    </div>
+{%- break -%}
+{%- endif -%}
+
+{%- endfor -%}
+
+{%- endif -%}

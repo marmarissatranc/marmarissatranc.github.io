@@ -1,1 +1,23 @@
 theme: jekyll-theme-cayman
+
+data_dir: data
+timezone: Europe/Istanbul
+paginate: 5
+paginate_path: "/:num/"
+
+title: [Marmaris İndigo Satranç Merkezi]
+description: [ ]
+google_analytics:
+
+collections:
+  turnuvalar:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+plugins: [jekyll-paginate]

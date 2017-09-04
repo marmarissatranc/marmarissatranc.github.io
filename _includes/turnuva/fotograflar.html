@@ -1,0 +1,23 @@
+<h4> Fotoğraflar </h4>
+{{ content }}
+
+{%- if pagedata.facebook-album -%}
+<div class="row">
+    <div class="col-md-12">
+        <p>Turnuva fotoğraflarına <a href="{{ pagedata.facebook-album }}" target="_blank">Facebook sayfasından</a> ulaşabilirsiniz.  </p>
+    </div>
+</div>
+{%- endif -%}
+
+
+{% assign myfiles = site.static_files %}
+
+{%- for image in myfiles -%}
+  {%- if image.path contains turnuva_kodu and image.path contains 'images' -%}
+    <div class="row">
+        <div class="col-md-12">
+            <img src="{{ site.github.url }}{{ image.path }}" class="img-responsive img-thumbnail center-block" alt="" style="margin-top:10px"/>
+        </div>
+    </div>
+  {%- endif -%}
+{%- endfor -%}

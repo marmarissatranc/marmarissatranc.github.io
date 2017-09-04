@@ -1,0 +1,49 @@
+
+<div class="row">
+<div class="col-md-9">
+<h4> Sonuçlar </h4>
+
+
+
+</div>
+<div class="col-md-3">
+{%- if pagedata.tsf-turnuva-no or pagedata.tsf-hizli-turnuva-no or pagedata.fide-turnuva-no -%}
+<div class="panel panel-default">
+<div class="panel-body">
+{%- if pagedata.tsf-turnuva-no -%}
+  <p class="text-center text-primary" style="margin:0px"><a href="{{site.data.constants.tsf-ukd-degisim-link}}{{ pagedata.tsf-turnuva-no }}" target="_blank">UKD Değişimleri</a></p>
+{%- endif -%}
+{%- if pagedata.tsf-hizli-turnuva-no -%}
+  <p class="text-center text-primary" style="margin:0px"><a href="{{site.data.constants.tsf-hizli-ukd-degisim-link}}{{ pagedata.tsf-hizli-turnuva-no }}" target="_blank">UKD Değişimleri</a></p>
+{%- endif -%}
+{%- if pagedata.fide-turnuva-no -%}
+{%- assign fide-nos = pagedata.fide-turnuva-no | split: ";" -%}
+{% for fide-no in fide-nos %}
+<p class="text-center text-primary" style="margin:0px"><a href="{{site.data.constants.fide-elo-degisim-link}}{{ fide-no | split: "-" | last | strip}}" target="_blank">ELO Değişimleri-{{ fide-no | split: "-" | first | strip}}</a></p>
+{% endfor %}
+{%- endif -%}
+</div>
+{%- endif -%}
+</div>
+</div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <div style="margin-top:20px"></div>
+    <ul class="nav nav-pills" role="tablist">
+        {% for kategori in kategoriler %}
+        <li role="presentation" class="{% if forloop.index0 == 0 %}active {% endif %}"><a href="#kategori-{{ kategori | strip }}" aria-controls="kategori-{{ kategori | strip }}" role="tab" data-toggle="tab">Kategori-{{ kategori | strip }}</a></li>
+        {% endfor %}
+    </ul>
+
+    <div style="margin-top:20px"></div>
+    <div class="tab-content">
+
+        {% for kategori in kategoriler %}
+          <div role="tabpanel" class="tab-pane {% if forloop.index0 == 0 %}active {% endif %}" id="kategori-{{ kategori  | strip }}"></div>
+        {% endfor %}
+
+    </div>
+  </div>
+</div>
+{{ content }}
