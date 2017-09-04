@@ -1,0 +1,36 @@
+adi: Marmaris 2013 Bahar Kupası
+
+turnuva-durum: 1
+kategoriler: A
+tsf-turnuva-no: 4320
+
+programlar:
+  - program:
+       adi: A
+       tablo:
+           - gun: 16 Mart 2013 Cumartesi
+             turlar: Teknik Toplantı-11:30; 1.Tur-13:00; 2.Tur-15:00; 3.Tur-17:00
+           - gun: 17 Mart 2013 Pazar
+             turlar: 4.Tur-10:00; 5.Tur-12:00; Ödül Töreni-14:00
+
+oduller:
+  - kategori:
+      adi: Gençler
+      oduller: 1. Çeyrek Altın ve Kupa; 2. Kupa; 3. Kupa
+      kazananlar: 	1. Soner Çalışkan; 2. Yavuzhan Şahin; 3. Mehmet İlker Erden
+  - kategori:
+      adi: 9-10-11 Yaş
+      oduller: 1. Çeyrek Altın ve Kupa; 2. Kupa; 3. Kupa
+      kazananlar: 1. Tuna Gürgüç; 2. Rüştü Efe Gün; 3. Kaan Tufan
+  - kategori:
+      adi: 8 Yaş
+      oduller: 1. Çeyrek Altın ve Kupa; 2. Kupa; 3. Kupa
+      kazananlar: 1. Eren Eke	Kupa; 2. Semih Akgül; 3. Delfin Dora Aydın
+  - kategori:
+      adi: 7 Yaş
+      oduller: 1. Çeyrek Altın ve Kupa; 2. Kupa; 3. Kupa
+      kazananlar: 1. Berkan Baylan; 2. Gülden Postoğlu; 3. Asrın Açıkel
+  - kategori:
+      adi: 5-6 Yaş
+      oduller: Madalya
+      kazananlar: Katılan tüm sporculara madalya

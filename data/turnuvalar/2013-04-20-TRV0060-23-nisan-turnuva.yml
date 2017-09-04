@@ -1,0 +1,33 @@
+adi: Marmaris İndigo 23 Nisan Satranç Turnuvası
+
+turnuva-durum: 1
+kategoriler: A
+tsf-turnuva-no: 4593
+
+programlar:
+  - program:
+       adi: A
+       tablo:
+           - gun: 20 Nisan 2013 Cumartesi
+             turlar: Teknik Toplantı-11:30; 1.Tur-13:00; 2.Tur-15:00; 3.Tur-17:00
+           - gun: 21 Nisan 2013 Pazar
+             turlar: 4.Tur-10:00; 5.Tur-12:00; Ödül Töreni-14:00
+
+
+oduller:
+  - kategori:
+      adi: A
+      oduller: 1. Çeyrek Altın ve Kupa; 2. Kupa ve 100 TL'lik BONO Yemek Çeki; 3. Kupa ve 50 TL'lik PORTOFİNO Yemek Çeki
+      kazananlar: 	1. Yavuzhan Şahin; 2. Kerem Aktaş; 3. Ali Gürdoğan
+  - kategori:
+      adi: B
+      oduller: 1. Çeyrek Altın ve Kupa; 2. Kupa ve 100 TL'lik BONO Yemek Çeki; 3. Kupa ve 50 TL'lik PORTOFİNO Yemek Çeki
+      kazananlar: 1. Arda Özgür Keskin; 2. Göktuğ Emir Tuna; 3. Hakan Hamitoğlu
+  - kategori:
+      adi: C
+      oduller: 1. Çeyrek Altın ve Kupa; 2. Kupa ve 100 TL'lik BONO Yemek Çeki; 3. Kupa ve 50 TL'lik PORTOFİNO Yemek Çeki
+      kazananlar: 1. Uğurcan Dözen; 2. Mehmet Can Yıldırım; 3. Alparslan Güler
+  - kategori:
+      adi: D
+      oduller: Madalya
+      kazananlar: Katılan tüm sporculara madalya

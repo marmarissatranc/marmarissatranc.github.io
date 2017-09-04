@@ -1,0 +1,30 @@
+adi: Marmaris Martı Otel ELO Turnuvası
+
+turnuva-durum: 1
+kategoriler: A; B; C; D
+tsf-turnuva-no: 5269
+fide-turnuva-no: A-89306; B-89307
+
+programlar:
+  - program:
+       adi: A
+       tablo:
+           - gun: 26 Aralık 2013 Perşembe
+             turlar: Son Başvuru-20:00
+           - gun: 27 Aralık 2013 Cuma
+             turlar: Teknik Toplantı-16:00; 1.Tur-18:00
+           - gun: 28 Aralık 2013 Cumartesi
+             turlar: 2.Tur-10:00; 3.Tur-14:00; 4.Tur-18:00
+           - gun: 29 Aralık 2013 Pazar
+             turlar: 5.Tur-09:00; 6.Tur-14:00; Ödül Töreni-18:00
+  - program:
+       adi: B; C; D
+       tablo:
+           - gun: 26 Aralık 2013 Perşembe
+             turlar: Son Başvuru-20:00
+           - gun: 27 Aralık 2013 Cuma
+             turlar: Teknik Toplantı-16:00; 1.Tur-18:00
+           - gun: 28 Aralık 2013 Cumartesi
+             turlar: 2.Tur-13:00; 3.Tur-15:30; 4.Tur-18:00
+           - gun: 29 Aralık 2013 Pazar
+             turlar: 5.Tur-09:00; 6.Tur-12:30; Ödül Töreni-18:00

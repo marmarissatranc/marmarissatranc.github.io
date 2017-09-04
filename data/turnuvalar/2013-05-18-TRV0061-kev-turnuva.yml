@@ -1,0 +1,32 @@
+adi: KEV Özel Marmaris Koleji Geleneksel 4. Satranç Şenliği
+
+turnuva-durum: 1
+kategoriler: A
+tsf-turnuva-no: 4766
+
+programlar:
+  - program:
+       adi: A
+       tablo:
+           - gun: 18 Mayıs 2013 Cumartesi
+             turlar: Teknik Toplantı-11:00; 1.Tur-13:00; 2.Tur-15:00; 3.Tur-17:00
+           - gun: 19 Mayıs 2013 Pazar
+             turlar: 4.Tur-10:00; 5.Tur-12:00; Ödül Töreni-15:00
+
+oduller:
+  - kategori:
+      adi: Gençler
+      oduller: 1. Kupa ve Çeyrek Altın; 2. Kupa ve gram altın; 3. Kupa ve gram altın
+      kazananlar: 	1. Kerem Aktaş; 2. Ali Gürdoğan; 3. Eren Çelebi
+  - kategori:
+      adi: 9-10-11
+      oduller: 1. Kupa ve Çeyrek Altın; 2. Kupa ve gram altın; 3. Kupa ve gram altın
+      kazananlar: 1. Kaan Tufan; 2. Doğukan Çağrı Üçgül; 3. Kaan Kamil Uzunay
+  - kategori:
+      adi: 7-8 Yaş
+      oduller: 1. Kupa ve Çeyrek Altın; 2. Kupa ve gram altın; 3. Kupa ve gram altın
+      kazananlar: 1. Yusuf Berk Kurtuluş; 2. Delfin Dora Aydın; 3. Gülden Postoğlu
+  - kategori:
+      adi: 5-6 Yaş
+      oduller: Madalya
+      kazananlar: Katılan tüm sporculara madalya
