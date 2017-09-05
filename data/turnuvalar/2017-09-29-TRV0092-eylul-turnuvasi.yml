@@ -1,14 +1,11 @@
-adi: Marmaris İndigo Turnuva Adı
+adi: Marmaris İndigo Eylül Turnuvası
 
 turnuva-durum: 0
 kategoriler: A; B; C; D
-tsf-turnuva-no: 99999
-tsf-hizli-turnuva-no: 99999
-fide-turnuva-no: 99999
+tsf-turnuva-no: 
+fide-turnuva-no: 
 
-konaklama: 2017-06-27-konaklama-fiyatlari
-yonerge-kategori: true
-oyunlar: 0
+konaklama: 2017-09-05-deneme-yazisi
 
 facebook-album: https://www.facebook.com/profile.php?id=100005340018875&sk=photos&collection_token=100005340018875:2305272732:69&set=a.633377346850260.1073741847.100005340018875&type=3&pnref=story
 
