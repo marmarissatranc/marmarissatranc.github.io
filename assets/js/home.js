@@ -1,3 +1,6 @@
+$.mobile.ajaxEnabled=false;
+$.mobile.loading().hide();
+
 $(document).ready(function(){
 
 	var clickEvent = false;
