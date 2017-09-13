@@ -18,7 +18,11 @@ $(document).ready(function(){
 			}
 		}
 		clickEvent = false;
-	});
+	}).swiperight(function() {
+	    $(this).carousel('prev');
+	}).swipeleft(function() {
+    $(this).carousel('next');
+  });
 })
 
 $(window).load(function() {
