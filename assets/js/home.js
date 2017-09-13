@@ -1,6 +1,10 @@
 $.mobile.ajaxEnabled=false;
 $.mobile.loading().hide();
 
+$(document).on( "mobileinit", function() {
+    $.mobile.loader.prototype.options.disabled = true;
+});
+
 $(document).ready(function(){
 
 	var clickEvent = false;
