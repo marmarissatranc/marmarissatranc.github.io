@@ -38,6 +38,11 @@ body {
 	text-shadow:none;
 }
 
+#myCarousel .carousel-caption a {
+  color: #50afff;
+  font-size: 20px;
+}
+
 #myCarousel .list-group {
 	position:absolute;
 	top:0;
