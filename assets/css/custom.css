@@ -65,3 +65,5 @@ body {
 	.carousel-caption p,
 	#myCarousel .list-group {display:none;}
 }
+
+.ui-content, .ui-page{outline: none !important;}
