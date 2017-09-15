@@ -11,6 +11,10 @@
 <p>{{ post.content }}</p>
 <div class="tables-end"></div>
 
+{%- if dataname and post.yonerge == 1 -%}
+<p><a href="{{ dataname }}-yonerge.pdf" target="_blank"><span class="glyphicon glyphicon-save" aria-hidden="true"></span> Yönerge </a></p>
+{%- endif -%}
+
 {%- if dataname and post.ukd == 1 and pagedata.tsf-turnuva-no -%}
 <p> <a href="{{site.data.constants.tsf-ukd-degisim-link}}{{ pagedata.tsf-turnuva-no }}" target="_blank">UKD değişimleri</a></p>
 {%- endif -%}
