@@ -1,8 +1,11 @@
 ---
 title: Minikler İçin Satranç Şenliği
 yonerge: 1
+odul: 0
 ---
 
-Ödüllü Marmaris İndigo ELO Turnuvası / Grand Prix-1 30 Eylül-1 Ekim ve 7-8 Ekim 2017 tarihlerinde İndigo Satranç Cafe’de gerçekleştirilecek.  İndigo Grand Prix serisinin ilk turnuvası olan yarışmada maçlar A ve B Kategorilerinde 30 Eylül-1 Ekim, C Kategorisinde 7-8 Ekim tarihlerinde oynanacak.  
+Ödüllü Marmaris İndigo ELO Turnuvası / Grand Prix-1 kapsamında minik yarışmacılar için 8 Ekim’de Satranç Şenliği düzenlenecektir. 
 
-Minik yarışmacılar için 8 Ekim’de Satranç Şenliği düzenlenecektir. 
+Şenliğie TSF Lisansına sahip 2017-2018 yılı vizesi yapılmış, 2010, 2011 ve 2012 doğumlu sporcular katılabilecektir.
+
+Turnuvaya ait detayları yönergede bulabilirsiniz. 
