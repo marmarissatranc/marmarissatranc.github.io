@@ -9,7 +9,7 @@ konaklama:
 
 facebook-album: 
 basvuru-form: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeObRajGa3qJxBCiPFmpRSUD1Yq-wtO64SspoMvmFkXdxuyVQ/viewform?embedded=true" width="720" height="2000" frameborder="0" marginheight="0" marginwidth="0">Yükleniyor...</iframe>
-basvuru-listesi: <iframe src="https://docs.google.com/spreadsheets/d/1CERDOGtM7Pc_lphN7DJMhusTBoKH3qd2pPlnJbty4Ao/pubhtml?widget=true&amp;headers=false" width="720" height="800"></iframe>
+basvuru-listesi: <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTQkVlpfPDYBhe2-8rEcsgBULhMDfjiyF5ITn0RSLIUZluict2lg20xTK8gOHhElrAB3Iz5-XRD5qpa/pubhtml?widget=true&amp;headers=false" width="720" height="800"></iframe>
 
 programlar:
   - program:
