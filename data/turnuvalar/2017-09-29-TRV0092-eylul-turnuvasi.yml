@@ -8,7 +8,7 @@ fide-turnuva-no:
 konaklama:
 
 facebook-album: 
-basvuru-form: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeObRajGa3qJxBCiPFmpRSUD1Yq-wtO64SspoMvmFkXdxuyVQ/viewform?embedded=true" width="720" height="1200" frameborder="0" marginheight="0" marginwidth="0">Yükleniyor...</iframe>
+basvuru-form: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeObRajGa3qJxBCiPFmpRSUD1Yq-wtO64SspoMvmFkXdxuyVQ/viewform?embedded=true" width="720" height="2000" frameborder="0" marginheight="0" marginwidth="0">Yükleniyor...</iframe>
 basvuru-listesi: <iframe src="https://docs.google.com/spreadsheets/d/1CERDOGtM7Pc_lphN7DJMhusTBoKH3qd2pPlnJbty4Ao/pubhtml?widget=true&amp;headers=false" width="720" height="800"></iframe>
 
 programlar:
@@ -16,21 +16,21 @@ programlar:
        adi: A
        tablo:
            - gun: 30 Eylül 2017 Cumartesi
-             turlar: Kayıt Kontrol Başlangıç-09:00; Kayıt Kontrol Bitiş-12:30; Teknik Toplantı10:00; 1.Tur-13:00; 2.Tur-16:30; 3.Tur-20:00
+             turlar: Kayıt Kontrol Başlangıç-09:00; Kayıt Kontrol Bitiş-12:30; Teknik Toplantı-10:00; 1.Tur-13:00; 2.Tur-16:30; 3.Tur-20:00
            - gun: 1 Ekim 2017 Pazar
              turlar: 4.Tur-10:00; 5.Tur-13:30; Ödül Töreni-Son Turun Ardından
   - program:
        adi: B
        tablo:
            - gun: 30 Eylül 2017 Cumartesi
-             turlar: Kayıt Kontrol Başlangıç-09:00; Kayıt Kontrol Bitiş-12:30; Teknik Toplantı10:00; 1.Tur-13:00; 2.Tur-15:30; 3.Tur-18:00
+             turlar: Kayıt Kontrol Başlangıç-09:00; Kayıt Kontrol Bitiş-12:30; Teknik Toplantı-10:00; 1.Tur-13:00; 2.Tur-15:30; 3.Tur-18:00
            - gun: 1 Ekim 2017 Pazar
              turlar: 4.Tur-10:00; 5.Tur-13:00; 6.Tur-15:30; Ödül Töreni-Son Turun Ardından
   - program:
        adi: C
        tablo:
            - gun: 7 Ekim 2017 Cumartesi
-             turlar: Kayıt Kontrol Başlangıç-09:00; Kayıt Kontrol Bitiş-12:30; Teknik Toplantı10:00; 1.Tur-13:00; 2.Tur-15:30; 3.Tur-18:00
+             turlar: Kayıt Kontrol Başlangıç-09:00; Kayıt Kontrol Bitiş-12:30; Teknik Toplantı-10:00; 1.Tur-13:00; 2.Tur-15:30; 3.Tur-18:00
            - gun: 8 Ekim 2017 Pazar
              turlar: 4.Tur-10:00; 5.Tur-13:00; 6.Tur-15:30; Ödül Töreni-Son Turun Ardından
 
