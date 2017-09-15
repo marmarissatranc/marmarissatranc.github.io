@@ -1,5 +1,5 @@
 ---
-title: ÖDÜLLÜ MARMARİS İNDİGO GRAND PRİX SERİSİ BAŞLIYOR!
+title: Ödüllü Marmaris İndigo Grand Prix Serisi Başlıyor!
 odul: 0
 ---
 
