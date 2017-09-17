@@ -39,11 +39,16 @@ layout: default
     <tr>
     <td class="col-md-8"><a href="{{ site.github.url }}/turnuvalar/{{ myfile.basename }}" > {{ site.data.turnuvalar[myfile.basename].adi }} </a></td>
     <td class="col-md-2">
+{%- if site.data.turnuvalar[myfile.basename].turnuva-durum == 1 -%}
 <div style="font-size: 20px">
     <a href="{{ site.github.url }}/turnuvalar/{{ myfile.basename }}/yonerge" style="margin-right:5px"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></a>
     <a href="{{ site.github.url }}/turnuvalar/{{ myfile.basename }}/sonuclar" style="margin-right:5px"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a>
     <a href="{{ site.github.url }}/turnuvalar/{{ myfile.basename }}/fotograflar" style="margin-right:5px"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span></a>
 </div>
+{%- else -%}
+    <a href="{{ site.github.url }}/turnuvalar/{{ myfile.basename }}/basvuru" class="btn btn-primary center-block"><div class="faa-flash animated">Başvur</div></a>
+{%- endif -%}
+
     </td>
     <td class="col-md-2 text-right">
     {{ tarihs | date: "%-d" }}
