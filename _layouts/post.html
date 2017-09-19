@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="tr">
-{% include head.html %}
 
-<body>
-
-{% include header.html %}
 {%- assign post = page -%}
 
 {% assign post_filename = post.path | replace_first: '_posts/', '' | replace_first: '.md', '' %}
 {% assign post_filename_s = post_filename | split: '-' %}
+
+{% include head.html %}
+
+{%- if post.pgn -%}
+  <link rel="stylesheet" href="{{ site.github.url }}/assets/css/pgnvjs.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+{% assign pgnfile = site.github.url | append: '/assets/pgn/' | append: post.pgn %}
+{%- endif -%}
+
+<body>
+
+{% include header.html %}
 
 {%- if post_filename_s[3] contains 'TRV' -%}
     {%- for myfile in site.static_files -%}
@@ -42,7 +50,6 @@
             <div class="col-md-12">
               {%- include post_inner.html -%}
             </div>
-
           </div>
         </div>
 
@@ -57,7 +64,32 @@
     </div>
 </div>
 
-    {% include footer.html %} {% include google_analytics.html %}
+    {% include footer.html %}
+
+    {%- if post.pgn -%}
+    <script src="{{ site.github.url }}/assets/js/pgnvjs.js" type="text/javascript"></script>
+
+    <script type='text/javascript'>
+
+          $.get("{{pgnfile}}", function(data) {
+
+              data = data.replace(/\r?\n/g, " ");
+              var cfg = {
+                  pgn: data,
+                  locale: 'en',
+                  pieceStyle: 'merida'
+              };
+              pgnv = pgnView('board', cfg);
+
+          }, "text").fail(function() {
+              $('#board').html("<p class='bg-danger'> {{pgnfile}} PGN yüklenmedi.</p>");
+          });
+
+    </script>
+
+    {%- endif %}
+
+{% include google_analytics.html %}
 </body>
 
 </html>

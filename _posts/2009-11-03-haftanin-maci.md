@@ -1,5 +1,6 @@
 ---
 title: Haftanın Maçı
+pgn: firatkayaman.pgn
 ---
 
 2000 Yılında Antalya'da  Türkiye Şampiyonası Çeyrek Finallerinde Fırat Cem Ağca ile Ankaralı usta

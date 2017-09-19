@@ -1,5 +1,6 @@
 ---
 title: Haftanın Maçı / Mert Berk - Yavuzhan Şahin
+pgn: mertyavuzhan.pgn
 ---
 
 2 – 3 Ekim 2010 tarihlerinde düzenlenen Marmaris Sonbahar 2010 Satranç Turnuvası’nda Mert Berk ve Yavuzhan Şahin arasında oynanan maçı sizlerle paylaşıyoruz.

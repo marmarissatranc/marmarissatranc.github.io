@@ -1,5 +1,6 @@
 ---
 title: Haftanın Maçı
+pgn: aliege.pgn
 ---
 
 2010 Marmaris Yaş Grupları Satranç Şampiyonası 10 yaş grubunda eş puanla ilk iki sırayı paylaşan Ali Gürdoğan ile Ege Kargın'ın 5. turda oynadıkları maçı sizlerle paylaşıyoruz.

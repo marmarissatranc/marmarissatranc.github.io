@@ -11,6 +11,14 @@
 <p>{{ post.content }}</p>
 <div class="tables-end"></div>
 
+{%- if post.pgn -%}
+<div class="row">
+    <div class="col-md-2 col-md-offset-2">
+        <div id="board" style="width:450px"></div>
+    </div>
+</div>
+{%- endif %}
+
 {%- if dataname and post.yonerge == 1 -%}
 <br>
 <h4><a href="{{ site.github.url }}/turnuvalar/{{ dataname }}/{{ dataname }}-yonerge.pdf" target="_blank"><span class="glyphicon glyphicon-save" aria-hidden="true"></span> Yönerge </a></h4>

@@ -1,5 +1,6 @@
 ---
 title: Haftanın Maçı
+pgn: kerar.pgn
 ---
 Marmaris Belesiyesi GSK Ocak 2010 Ustalar Satranç Turnuvası'nda Kerem Aktaş ve Armağan Şencan arasında oynanan maçı sizlerle paylaşıyoruz.
 

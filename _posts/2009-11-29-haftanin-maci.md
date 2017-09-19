@@ -1,5 +1,6 @@
 ---
 title: Haftanın Maçı
+pgn: osmansinan.pgn
 ---
 
 İlimizin kuvvetli satranççılarından Osman Tiriç ile Sinan Sakaoğlu'nun 2009 yılında Muğla'da oynadıkları maçı sizlerle paylaşıyoruz.

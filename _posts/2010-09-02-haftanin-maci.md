@@ -1,5 +1,6 @@
 ---
 title: Haftanın Maçı / Yılmaz Sülükçü - Engin Keskin
+pgn: yilmazengin.pgn
 ---
 28 – 29 Ağustos 2010 tarihlerinde düzenlenen Marmaris Ağustos 2010 Ustalar Satranç Turnuvası’nda oynanan ve şampiyonu belirleyen maçı sizlerle paylaşıyoruz.
 Son tura tam puanla lider giren Engin Keskin bu maçta Yılmaz Sülükçü’ye kaybederek averajla ikinci olmuştu.
