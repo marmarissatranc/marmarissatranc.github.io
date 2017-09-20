@@ -15,13 +15,23 @@
             <th scope="row"> Yönerge </th>
             <td>
 
-                {% if pagedata.yonerge-kategori %}
-                    <ul>
-                    {% for kategori in kategoriler %}
-                    <li><a href="{{ dataname }}-yonerge-{{ kategori | strip}}.pdf" target="_blank"><span class="glyphicon glyphicon-save" aria-hidden="true"></span> Kategori-{{ kategori | strip }} </a></li>{% endfor %}
-                    </ul>
+                {% if pagedata.yonerge-adlari %}
+                    {%- assign yonerge-adlari = pagedata.yonerge-adlari | split: ";" -%}
+
+                    {% for yonerge-adi in yonerge-adlari %}
+                        <li><a href="{{ dataname }}-yonerge-{{ yonerge-adi | strip}}.pdf" target="_blank"><span class="glyphicon glyphicon-save" aria-hidden="true"></span> Yönerge-{{ yonerge-adi | strip }} </a></li>
+                    {% endfor %}
+
                 {% else %}
-                    <a href="{{ dataname }}-yonerge.pdf" target="_blank"><span class="glyphicon glyphicon-save" aria-hidden="true"></span> Yönerge </a>
+                    {% if pagedata.yonerge-kategori %}
+                        <ul>
+                        {% for kategori in kategoriler %}
+                            <li><a href="{{ dataname }}-yonerge-{{ kategori | strip}}.pdf" target="_blank"><span class="glyphicon glyphicon-save" aria-hidden="true"></span> Kategori-{{ kategori | strip }} </a></li>
+                        {% endfor %}
+                        </ul>
+                    {% else %}
+                        <a href="{{ dataname }}-yonerge.pdf" target="_blank"><span class="glyphicon glyphicon-save" aria-hidden="true"></span> Yönerge </a>
+                    {% endif %}
                 {% endif %}
             </td>
         </tr>

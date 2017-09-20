@@ -21,3 +21,5 @@ defaults:
       layout: "post"
 
 plugins: [jekyll-paginate]
+
+google_analytics: UA-106765485-1

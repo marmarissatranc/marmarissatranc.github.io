@@ -1,4 +1,0 @@
----
-title: Konaklama
-layout: turnuva
----

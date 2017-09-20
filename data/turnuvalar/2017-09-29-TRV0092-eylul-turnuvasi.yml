@@ -1,13 +1,15 @@
-adi: Marmaris İndigo ELO Eylül Turnuvası
+adi: Marmaris İndigo ELO Turnuvası ve Satranç Şenliği
 
 turnuva-durum: 0
-kategoriler: A; B; C
-tsf-turnuva-no: 
-fide-turnuva-no: 
+kategoriler: A; B; C; Minikler
+tsf-turnuva-no:
+fide-turnuva-no:
+
+yonerge-adlari: ELO; Minikler
 
 konaklama:
 
-facebook-album: 
+facebook-album:
 basvuru-form: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeObRajGa3qJxBCiPFmpRSUD1Yq-wtO64SspoMvmFkXdxuyVQ/viewform?embedded=true" width="720" height="2100" frameborder="0" marginheight="0" marginwidth="0">Yükleniyor...</iframe>
 basvuru-listesi: <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTQkVlpfPDYBhe2-8rEcsgBULhMDfjiyF5ITn0RSLIUZluict2lg20xTK8gOHhElrAB3Iz5-XRD5qpa/pubhtml?widget=true&amp;headers=false" width="720" height="800"></iframe>
 
@@ -33,13 +35,18 @@ programlar:
              turlar: Kayıt Kontrol Başlangıç-09:00; Kayıt Kontrol Bitiş-12:30; Teknik Toplantı-10:00; 1.Tur-13:00; 2.Tur-15:30; 3.Tur-18:00
            - gun: 8 Ekim 2017 Pazar
              turlar: 4.Tur-10:00; 5.Tur-13:00; 6.Tur-15:30; Ödül Töreni-Son Turun Ardından
+  - program:
+       adi: Minikler
+       tablo:
+           - gun: 8 Ekim 2017 Pazar
+             turlar: Kayıt Kontrol Başlangıç-12:45;Kayıt Kontrol Bitiş-13:15; Teknik Toplantı-13:30; 1.Tur-14:30; 2.Tur-15:20; 3.Tur-16:00; Ödül Töreni-Son Turun Ardından
 
 
 oduller:
   - kategori:
       adi: A
       oduller: 1. Madalya ve 500 TL; 2. Madalya ve 300 TL; 3. Madalya ve 200 TL; En iyi bayan sporcu - Turnuva takımı
-      kazananlar: 
+      kazananlar:
   - kategori:
       adi: B
       oduller: 1. Madalya ve 250 TL; 2. Madalya ve 150 TL; 3. Madalya ve 100 TL; En iyi bayan sporcu - Turnuva takımı
@@ -47,5 +54,8 @@ oduller:
   - kategori:
       adi: C
       oduller: 1. Kupa ve Turnuva Takımı; 2. Kupa ve Turnuva Takımı; 3. Kupa ve Turnuva Takımı; En iyi bayan sporcu - Turnuva takımı
-      kazananlar: 
-
+      kazananlar:
+  - kategori:
+      adi: Minikler
+      oduller: Tüm sporculara Madalya
+      kazananlar:

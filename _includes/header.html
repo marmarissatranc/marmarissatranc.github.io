@@ -16,6 +16,22 @@
         </div>
     </div>
 
+{% assign myfiles = site.static_files | sort: 'name' | reverse %}
+{% assign turnuvaadi = "" %}
+
+{%- for myfile in myfiles -%}
+
+  {%- if myfile.path contains 'data/turnuvalar/' -%}
+
+    {%- if site.data.turnuvalar[myfile.basename].turnuva-durum == 1 -%}
+      {%- assign turnuvaadi = myfile.basename -%}
+      {%- break -%}
+    {%- endif -%}
+
+  {%- endif -%}
+
+{%- endfor -%}
+
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -26,6 +42,11 @@
                         <span class="icon-bar"></span>
                     </button>
                 <a class="navbar-brand" href="{{ site.github.url }}/"><span class="glyphicon glyphicon-home"></span></a>
+              {%- if turnuvaadi -%}
+                <div class="visible-xs-block visible-sm-block faa-horizontal animated">
+                  <p class="navbar-text navbar-left"><a href="{{ site.github.url }}/turnuvalar/{{ turnuvaadi }}/basvuru" class="navbar-link" style="color:#337ab7"> Turnuvaya Başvur <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></p>
+                </div>
+              {%- endif -%}
             </div>
             <div id="navbar" class="navbar-collapse collapse" style="font-size:15px">
                 <ul class="nav navbar-nav">
@@ -36,7 +57,11 @@
                     <li><a href="{{ site.github.url }}/sss"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>  S.S.S</a></li>
                     <li><a href="{{ site.github.url }}/iletisim"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>  İletişim</a></li>
                 </ul>
-
+                {%- if turnuvaadi -%}
+                  <div class="faa-horizontal animated">
+                    <p class="navbar-text navbar-right"><a href="{{ site.github.url }}/turnuvalar/{{ turnuvaadi }}/basvuru" class="navbar-link" style="color:#337ab7">Turnuvaya Başvur <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a> </p>
+                  </div>
+                {%- endif -%}
             </div>
             <!--/.nav-collapse -->
         </div>

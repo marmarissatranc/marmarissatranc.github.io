@@ -21,7 +21,25 @@
 
 {%- if dataname and post.yonerge == 1 -%}
 <br>
-<h4><a href="{{ site.github.url }}/turnuvalar/{{ dataname }}/{{ dataname }}-yonerge.pdf" target="_blank"><span class="glyphicon glyphicon-save" aria-hidden="true"></span> Yönerge </a></h4>
+  {% if pagedata.yonerge-adlari %}
+      {%- assign yonerge-adlari = pagedata.yonerge-adlari | split: ";" -%}
+
+      {% for yonerge-adi in yonerge-adlari %}
+      <h4><a href="{{ site.github.url }}/turnuvalar/{{ dataname }}/{{ dataname }}-yonerge-{{ yonerge-adi | strip}}.pdf" target="_blank"><span class="glyphicon glyphicon-save" aria-hidden="true"></span> Yönerge-{{ yonerge-adi | strip }} </a></h4>
+      {% endfor %}
+
+  {% else %}
+      {% if pagedata.yonerge-kategori %}
+          {%- assign kategoriler = pagedata.kategoriler | split: ";" -%}
+          <ul>
+          {% for kategori in kategoriler %}
+              <li><a href="{{ site.github.url }}/turnuvalar/{{ dataname }}/{{ dataname }}-yonerge-{{ kategori | strip}}.pdf" target="_blank"><span class="glyphicon glyphicon-save" aria-hidden="true"></span> Yönerge-{{ kategori | strip }} </a></li>
+          {% endfor %}
+          </ul>
+      {% else %}
+          <h4><a href="{{ site.github.url }}/turnuvalar/{{ dataname }}/{{ dataname }}-yonerge.pdf" target="_blank"><span class="glyphicon glyphicon-save" aria-hidden="true"></span> Yönerge </a></h4>
+      {% endif %}
+  {% endif %}
 <br>
 {%- endif -%}
 
