@@ -19,7 +19,7 @@
                       {%- assign post_image = site.data.constants.carousel-default-image -%}
                     {%- endif -%}
                     <div class="item {% if forloop.index0 == 0 %}active {% endif %}">
-                        <img src="{{ site.github.url }}{{site.data.constants.image_path}}{{ post_image }}" style="min-width: 500px !important; max-width: 500px !important; max-height: 300px !important; min-height: 300px !important;">
+                        <a href="{{ post.url | prepend: site.github.url }}"><img src="{{ site.github.url }}{{site.data.constants.image_path}}{{ post_image }}" style="min-width: 500px !important; max-width: 500px !important; max-height: 300px !important; min-height: 300px !important;"></a>
                         <div class="carousel-caption">
                             <h4><a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a></h4>
                             <p>{{ post.content | strip_html | truncatewords: 15 }}

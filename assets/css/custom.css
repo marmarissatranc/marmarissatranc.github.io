@@ -92,5 +92,5 @@ body {
 .faa-horizontal.animated,
 .faa-horizontal.animated-hover:hover,
 .faa-parent.animated-hover:hover > .faa-horizontal {
-	animation: horizontal 5s ease 1;
+	animation: horizontal 5s ease 2;
 }
