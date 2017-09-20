@@ -23,7 +23,7 @@
 
   {%- if myfile.path contains 'data/turnuvalar/' -%}
 
-    {%- if site.data.turnuvalar[myfile.basename].turnuva-durum == 1 -%}
+    {%- if site.data.turnuvalar[myfile.basename].turnuva-durum == 0 -%}
       {%- assign turnuvaadi = myfile.basename -%}
       {%- break -%}
     {%- endif -%}
