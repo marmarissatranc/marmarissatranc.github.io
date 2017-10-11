@@ -25,6 +25,9 @@ title: Yazı Başlığı
 ---
 ```
 
+Önizleme için
+[http://markdownlivepreview.com/](http://markdownlivepreview.com/)
+
 ### 1.2 Yazıya nasıl resim eklenir?
 
 /assets/images/ dizini altında yazı adı ile birebir aynı olan bir resim dosyası varsa bu dosya yazının resmi olur. Dosya uzantısının önemi yoktur. JPG, PGN, GIF olabilir.
@@ -54,10 +57,12 @@ ukd: 1 (turnuva dosyasına tsf-turnuva-no veya tsf-hizli-turnuva-no bilgisi ekle
 elo: 1 (turnuva dosyasına elo-turnuva-no bilgisi eklenmişse FIDE sayfası linki eklenir)
 odul: 0 (turnuva dosyasına ödül bilgisi eklenmişse kazananlar sütunu olmadan gösterilir)
 odul: 1 (turnuva dosyasına ödül bilgisi eklenmişse kazananlar sütunu ile birlikte gösterilir)
+yonerge: 1 (yazıya yönerge linkleri eklenir)
 resimler:  (eğer yazıdaki resimlere alt yazı eklenmek isteniyorsa sıraya dikkat edilerek aşağıdaki gibi eklenir.)
   - resim 1 alt yazı
   - resim 2 alt yazı
   - resim 3 alt yazı
+pgn: oyun.pgn (/assets/pgn dizini altına koyulan pgn dosyasının adı. Bu dosya sayfada satranç tahtası şeklinde gösterilir.)
 ---
 ```
 
@@ -80,6 +85,7 @@ fide-turnuva-no: 99999 (Turnuva başında belli olmadığı için değeri siline
 
 konaklama: 2017-06-27-konaklama-fiyatlari (Eğer konaklama bilgisi verilecekse daha önce yazılmış bir yazını adı verilebilir. _post dizin altında bulunmalıdır.)
 yonerge-kategori: true (Eğer her kategori için ayrı yönerge dosyası varsa "true", değilse silinebilir.)
+yonerge-adlari: ELO; Minikler (Birde fazla yönerge varsa ve yönerge adları kategorilerle aynı değilse)
 oyunlar: 1 (Eğer PGN içinde hamleler varsa "1", değilse silinebilir.)
 
 facebook-album: https://www.facebook.com/profile.php?id=100005340018875&sk=photos&collection_token=100005340018875:2305272732:69&set=a.633377346850260.1073741847.100005340018875&type=3&pnref=story
@@ -99,15 +105,26 @@ _/turnuvalar/YYYY-AA-GG-TRV9999-turnuva-adi klasörü altına aşağıdaki dosya
 
 YYYY-AA-GG-TRV9999-turnuva-adi-yonerge.pdf
 
-veya her kategori için farklı dosya varsa
+eğer her kategori için farklı dosya varsa
 
 YYYY-AA-GG-TRV9999-turnuva-adi-yonerge-A.pdf  
 YYYY-AA-GG-TRV9999-turnuva-adi-yonerge-B.pdf  
 YYYY-AA-GG-TRV9999-turnuva-adi-yonerge-C.pdf
 
+eğer birden fazla yönerge varsa ve kategori adları ile uyuşmuyorsa turnuva .yml dosyasına "yonerge-adlari" parametresi eklenir. İstenildiği kadar yönerge adı verilebilir. Yönerge dosyası ismi bu parametrelerle bitmelidir.
+```
+yonerge-adlari: ELO; Minikler
+```
+YYYY-AA-GG-TRV9999-turnuva-adi-yonerge-ELO.pdf  
+YYYY-AA-GG-TRV9999-turnuva-adi-yonerge-Minikler.pdf
+
 **dosya uzantısı küçük harfle .pdf olmalıdır.**
 
 ### 2.2 PGN Dosyası Nasıl Eklenir?
+
+Swiss Manager'da Diğer > PGN dosyaları menüsü açılır. "PGN Cikti dosyasi" paremetresine PGN dosya adı yazılır. "Bos PGN Dosyasi çiktisi" tuşuna basılarak dosya oluşturulur. Dosyanın adı ve kopyalanacağı dizin aşağıda belirtilmiştir.
+
+![]({{ site.github.url }}{{site.data.constants.other_path}}yardim-pgn-dosyasi-nasil-alinir.jpg)
 
 _/turnuvalar/YYYY-AA-GG-TRV9999-turnuva-adi klasörü altına aşağıdaki dosya adı ile eklenir.
 
@@ -119,6 +136,20 @@ YYYY-AA-GG-TRV9999-turnuva-adi-C.pgn
 
 ### 2.3 Sıralama Dosyası Nasıl Eklenir?
 
+Swiss Manager'da Listeler > Gecici/Final siralamasi menüsü açılır. Liste ekranı açıldıysa "Yazdırma menüsü" ne tıklanır.
+
+Genel sekmesindeki "bütün sütünları yazdır" işaretlenir.
+
+![]({{ site.github.url }}{{site.data.constants.other_path}}yardim-gecici-siralama-genel.jpg)
+
+Metin dosyaları sekmesinin görünümü aşağıdaki gibi olmalıdır.
+
+![]({{ site.github.url }}{{site.data.constants.other_path}}yardim-gecici-siralama-metin-dosyasi.jpg)
+
+"metindosyasi" tuşuna basılarak dosya adı girilir. Kaydet'e basınca çıktı alınmış olur.
+
+![]({{ site.github.url }}{{site.data.constants.other_path}}yardim-gecici-siralama-dosya.jpg)
+
 _/turnuvalar/YYYY-AA-GG-TRV9999-turnuva-adi klasörü altına aşağıdaki dosya adı ile eklenir.
 
 YYYY-AA-GG-TRV9999-turnuva-adi-siralama-A.txt  
@@ -126,3 +157,10 @@ YYYY-AA-GG-TRV9999-turnuva-adi-siralama-B.txt
 YYYY-AA-GG-TRV9999-turnuva-adi-siralama-C.txt  
 
 **dosya uzantısı küçük harfle .txt olmalıdır.**
+
+
+## Yardımcı Linkler
+
+[http://markdownlivepreview.com/](http://markdownlivepreview.com/)
+[https://pages-themes.github.io/cayman/](https://pages-themes.github.io/cayman/)
+[https://raw.githubusercontent.com/pages-themes/cayman/master/index.md](https://raw.githubusercontent.com/pages-themes/cayman/master/index.md)
