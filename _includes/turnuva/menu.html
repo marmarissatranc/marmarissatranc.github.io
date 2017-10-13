@@ -14,13 +14,11 @@
               <li role="presentation" class="{% if filename == 'basvuru' %}active {% endif %}"><a href="{{ site.github.url }}/turnuvalar/{{ dataname }}/basvuru"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>  Başvuru</a></li>
               <li role="presentation" class="{% if filename == 'oyuncular' %}active {% endif %}"><a href="{{ site.github.url }}/turnuvalar/{{ dataname }}/oyuncular"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>  Oyuncular</a></li>
             {%- endif -%}
-            {%- if pagedata.turnuva-durum == 1 -%}
               <li role="presentation" class="{% if filename == 'sonuclar' %}active {% endif %}"><a href="{{ site.github.url }}/turnuvalar/{{ dataname }}/sonuclar"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>  Sonuçlar</a></li>
             {%- if pagedata.oyunlar == 1 -%}
-                <li role="presentation" class="{% if filename == 'oyunlar' %}active {% endif %}"><a href="{{ site.github.url }}/turnuvalar/{{ dataname }}/oyunlar"><span class="glyphicon glyphicon-knight" aria-hidden="true"></span>  Oyunlar</a></li>
+              <li role="presentation" class="{% if filename == 'oyunlar' %}active {% endif %}"><a href="{{ site.github.url }}/turnuvalar/{{ dataname }}/oyunlar"><span class="glyphicon glyphicon-knight" aria-hidden="true"></span>  Oyunlar</a></li>
             {%- endif -%}
               <li role="presentation" class="{% if filename == 'fotograflar' %}active {% endif %}"><a href="{{ site.github.url }}/turnuvalar/{{ dataname }}/fotograflar"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span>  Fotoğraflar</a></li>
-            {%- endif -%}
         </ul>
     </div>
 </div>
