@@ -2,7 +2,7 @@
 title: Ödüllü Marmaris İndigo Grand Prix 2 Başlıyor!
 odul: 0
 yonerge: 1
-image: logo300.png
+image: 2017-10-13-TRV0093-turnuva-duyurusu.jpg
 ---
 
 Ödüllü Marmaris İndigo ELO Turnuvası / Grand Prix-2 4-5 Kasım ve 11-12 Kasım 2017 tarihlerinde İndigo Satranç Cafe’de gerçekleştirilecek.  
