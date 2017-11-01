@@ -66,6 +66,19 @@ pgn: oyun.pgn (/assets/pgn dizini altına koyulan pgn dosyasının adı. Bu dosy
 ---
 ```
 
+### 1.4 Mevcut Yazı Nasıl Değiştirilir?
+
+Github'a girilir. _post klasörü altında istenen yazı bulunur. Bu dosya seçilir. Sağ köşedeki kalem işaretine tıklanır.
+
+![]({{ site.github.url }}{{site.data.constants.other_path}}yardim-mevcut-yazi-degistir-1.jpg)
+
+İstenen değişiklik yapıldıktan sonra "Commit Changes" e basılır.
+
+![]({{ site.github.url }}{{site.data.constants.other_path}}yardim-mevcut-yazi-degistir-2.jpg)
+
+![]({{ site.github.url }}{{site.data.constants.other_path}}yardim-mevcut-yazi-degistir-3.jpg)
+
+
 ## 2. Yeni Turnuva Nasıl Eklenir?
 
 Turnuva eklemek için "_turnuvalar" dizini altına **YYYY-AA-GG-TRV9999-turnuva-adi** adıyla yeni bir klasör eklenir. Turnuva kodu belirlendikten sonra tüm yazı, resim, yönerge, pgn gibi dosyalarda bu kod yer almak zorundadır.
@@ -159,11 +172,58 @@ YYYY-AA-GG-TRV9999-turnuva-adi-siralama-C.txt
 **dosya uzantısı küçük harfle .txt olmalıdır.**
 
 
+### 2.4 Başvuru Formu Nasıl Oluşturulur?
+
+Gmail'e giriş yapılır ve Google Drive açılır. Başvuru klasöründeki daha önce oluşturulmuş başvurulardan birine sağ tıklanır ve "Kopya Oluştur" seçilir.
+
+![]({{ site.github.url }}{{site.data.constants.other_path}}yardim-basvuru-kopya-olustur-menu.jpg)
+
+Oluşan kopya açılır ve turnuva ismi değiştirilir. Başka değişilik gerekiyorsa yapılır. Ardından sağ üst köşedeki GÖNDER' tıklanır. Açılan form'da "< >" olan sekmeye tıklanır. Genişlik 720, Yükseklik 2100 olarak ayarlanır. "KOPYALA" tuşuna basılarak kopyalanır. Turnuva dosyasındaki basvuru-form: kısmına yapıştırılır.
+
+![]({{ site.github.url }}{{site.data.constants.other_path}}yardim-basvuru-kopya-olustur.jpg)
+
+Başvuru listesini oluşturmak için başvuru formundaki "Yanıtlar" sekmesine geçilir. Sağ köşedeki tablo işaretine tıklanarak yeni tablo oluşturulur. Google drive'da tablo görünecektir.
+
+![]({{ site.github.url }}{{site.data.constants.other_path}}yardim-basvuru-tablo-olustur.jpg)
+
+![]({{ site.github.url }}{{site.data.constants.other_path}}yardim-basvuru-tablo-olustur-hedef.jpg)
+
+Tablo dosyası açılır ve gizlenmesi gereken alanlar gizlenir. Ad Soyad, Kategori, Doğum Yılı, Katılım Yeri, UKD ve ELO alanları dışındakiler gizlenir. Sütün boyutları ayarlanır.
+
+![]({{ site.github.url }}{{site.data.constants.other_path}}yardim-basvuru-tablo-sutun-gizle.jpg)
+
+Dosya menüsünden "Web'de yayınla..." seçilir.
+
+![]({{ site.github.url }}{{site.data.constants.other_path}}yardim-basvuru-tablo-web-yayinla-menu.jpg)
+
+Yayınla tuşuna basılır ve "Ekle" sekmesine geçilir.
+
+![]({{ site.github.url }}{{site.data.constants.other_path}}yardim-basvuru-tablo-web-yayinla.jpg)
+
+Buradaki iframe kutusunun tamamı kopyalanır.
+![]({{ site.github.url }}{{site.data.constants.other_path}}yardim-basvuru-tablo-web-yayinla-ekle.jpg)
+
+Turnuva dosyasındaki basvuru-listesi: kısmına yapıştırılır. Sondaki iframe yazısından önce width="720" height="800" eklenir. Ekran görüntüsünde olan yere.
+
+![]({{ site.github.url }}{{site.data.constants.other_path}}yardim-basvuru-listesi-tablo.jpg)
+
+
 ## Yardımcı Linkler
+
+Github  
+[https://github.com](https://github.com)  
+
+Gmail
+[https://gmail.com](https://gmail.com)  
 
 Google Analytics  
 [https://www.google.com/analytics/](https://www.google.com/analytics/)  
 
+Google Drive  
+[https://drive.google.com/drive/my-drive](https://drive.google.com/drive/my-drive)  
+
+Markdown önizleme  
 [http://markdownlivepreview.com/](http://markdownlivepreview.com/)  
+
 [https://pages-themes.github.io/cayman/](https://pages-themes.github.io/cayman/)  
 [https://raw.githubusercontent.com/pages-themes/cayman/master/index.md](https://raw.githubusercontent.com/pages-themes/cayman/master/index.md)  
