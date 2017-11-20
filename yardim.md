@@ -58,6 +58,7 @@ elo: 1 (turnuva dosyasına elo-turnuva-no bilgisi eklenmişse FIDE sayfası link
 odul: 0 (turnuva dosyasına ödül bilgisi eklenmişse kazananlar sütunu olmadan gösterilir)
 odul: 1 (turnuva dosyasına ödül bilgisi eklenmişse kazananlar sütunu ile birlikte gösterilir)
 yonerge: 1 (yazıya yönerge linkleri eklenir)
+basvuru: 1 (yazıya başvuru linki eklenir)
 resimler:  (eğer yazıdaki resimlere alt yazı eklenmek isteniyorsa sıraya dikkat edilerek aşağıdaki gibi eklenir.)
   - resim 1 alt yazı
   - resim 2 alt yazı

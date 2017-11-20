@@ -1,5 +1,6 @@
 ---
 title: Marmaris Satranç Şampiyonu Kim Olacak?
+basvuru: 1
 image: 2017-11-20-TRV0094-turnuva-duyurusu.jpg
 ---
 
