@@ -1,71 +1,62 @@
-adi: Marmaris İndigo Turnuva Adı
+adi: Marmaris İndigo Şubat Rapid ELO Turnuvası
 
 turnuva-durum: 0
-kategoriler: A; B; C; D
-tsf-turnuva-no: 99999
-tsf-hizli-turnuva-no: 99999
-fide-turnuva-no: 99999
+kategoriler: A; B; C; D; Minikler
 
-konaklama: 2017-06-27-konaklama-fiyatlari
-yonerge-kategori: true
+tsf-hizli-turnuva-no: 
+fide-turnuva-no: 
+
+
+
 yonerge-adlari: ELO; Minikler
 oyunlar: 0
 
-facebook-album: https://www.facebook.com/profile.php?id=100005340018875&sk=photos&collection_token=100005340018875:2305272732:69&set=a.633377346850260.1073741847.100005340018875&type=3&pnref=story
+facebook-album: 
 
-basvuru-form: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfBz_wQUI41axFhl9fS7vmG44_3uWZ-vhYUNaGV0WZ-P97hSg/viewform?embedded=true" width="720" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-basvuru-listesi: <iframe src="https://docs.google.com/spreadsheets/d/1CERDOGtM7Pc_lphN7DJMhusTBoKH3qd2pPlnJbty4Ao/pubhtml?widget=true&amp;headers=false" width="720" height="800"></iframe>
+basvuru-form: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScXLrilrgErB9L0NqBc3i2my_8f9xtBU-lwsdeAfe3T8DORnQ/viewform?embedded=true" width="720" height="2100" frameborder="0" marginheight="0" marginwidth="0">Yükleniyor...</iframe>
+basvuru-listesi: <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTfYjIiTbfCgGKz2ErTBSkVQVerKhIgHkvntjoNPbogB1QJrPAXqOv1Q0lDZgiOrvYOcWC7j_pbSwd6/pubhtml?widget=true&amp;headers=false" width="720" height="800"></iframe>
 
 programlar:
   - program:
-       adi: A
+       adi: A, B, C
        tablo:
-           - gun: 02 Haziran 2017 Cuma
+           - gun: 24 Şubat 2018 Cumartesi
              turlar: Son Başvuru-20:00
-           - gun: 03 Haziran 2017 Cumartesi
-             turlar: Teknik Toplantı-10:00; 1.Tur-13:00; 2.Tur-16:00; 3.Tur-19:00
-           - gun: 04 Haziran 2017 Pazar
-             turlar: 4.Tur-10:00; 5.Tur-13:30; Ödül Töreni-17:00
-  - program:
-       adi: B
-       tablo:
-           - gun: 02 Haziran 2017 Cuma
-             turlar: Son Başvuru-20:00
-           - gun: 03 Haziran 2017 Cumartesi
-             turlar: Teknik Toplantı-10:00; 1.Tur-13:00; 2.Tur-15:00; 3.Tur-17:00
-           - gun: 04 Haziran 2017 Pazar
-             turlar: 4.Tur-11:00; 5.Tur-13:00; 6.Tur-15:00; Ödül Töreni-17:00
-  - program:
-       adi: C
-       tablo:
-           - gun: 26 Mayıs 2017 Cuma
-             turlar: Son Başvuru-20:00
-           - gun: 27 Mayıs 2017 Cumartesi
-             turlar: Teknik Toplantı-10:00; 1.Tur-13:00; 2.Tur-14:30; 3.Tur-16:00
-           - gun: 28 Mayıs 2017 Pazar
-             turlar: 4.Tur-11:00; 5.Tur-12:30; 6.Tur-14:00; Ödül Töreni-16:00
+           - gun: 25 Şubat 2018 Pazar
+             turlar: Kayıt Kontrol-10:00; 1.Tur-10:30; 2.Tur-12:00; 3.Tur-13:30; 4.Tur-15:00; 5.Tur-16:30; Ödül Töreni-18:00
   - program:
        adi: D
        tablo:
-           - gun: 26 Mayıs 2017 Cuma
+           - gun: 03 Mart 2018 Cumartesi
              turlar: Son Başvuru-20:00
-           - gun: 04 Haziran 2017 Pazar
-             turlar: Teknik Toplantı-10:00; 1.Tur-13:00; 2.Tur-14:00; 3.Tur-15:00; Ödül Töreni-16:00
+           - gun: 04 Mart 2018 Pazar
+             turlar: Kayıt Kontrol-10:00; 1.Tur-10:30; 2.Tur-12:00; 3.Tur-13:30; 4.Tur-15:00; 5.Tur-16:30; Ödül Töreni-18:00
+  - program:
+       adi: Minikler
+       tablo:
+           - gun: 03 Mart 2018 Cumartesi
+             turlar: Son Başvuru-20:00
+           - gun: 04 Mart 2018 Pazar
+             turlar: Kayıt Kontrol-10:00; 1.Tur-14:00; 2.Tur-15:00; 3.Tur-16:00; Ödül Töreni-18:00
 
 oduller:
   - kategori:
       adi: A
-      oduller: 1. Kupa ve Yarım Altın; 2. Kupa ve Çeyrek altın; 3. Kupa ve Gram altın
-      kazananlar: 1. Kerem Kerem; 2. Osman Osman; 3. Sinan Sinan
+      oduller: 1. Kupa ve 250 TL; 2. Kupa ve 150 TL; 3. Kupa ve 100 TL; En iyi bayan sporcuya kupa
+      kazananlar: 
   - kategori:
       adi: B
-      oduller: 1. Kupa ve Çeyrek Altın; 2. Kupa ve Gram altın; 3. Kupa ve Satranç Takımı
-      kazananlar: 1. Kerem Kerem; 2. Osman Osman; 3. Sinan Sinan
+      oduller: 1. Kupa ve 250 TL; 2. Kupa ve 150 TL; 3. Kupa ve 100 TL; En iyi bayan sporcuya kupa
+      kazananlar: 
   - kategori:
       adi: C
-      oduller: 1. Kupa ve Gram Altın; 2. Kupa ve Satranç Takımı; 3. Kupa ve Satranç Takımı
-      kazananlar: 1. Kerem Kerem; 2. Osman Osman; 3. Sinan Sinan
+      oduller: 1. Kupa; 2. Kupa; 3. Kupa; En iyi bayan sporcuya kupa
+      kazananlar: 
   - kategori:
       adi: D
-      oduller: Madalya
-      kazananlar: Katılan tüm sporculara madalya
+      oduller: 1. Kupa; 2. Kupa; 3. Kupa; En iyi bayan sporcuya kupa
+      kazananlar: 
+  - kategori:
+      adi: Minikler
+      oduller: Katılan tüm sporculara madalya
+      kazananlar:
