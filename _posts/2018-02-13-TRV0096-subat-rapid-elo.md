@@ -17,4 +17,4 @@ Katılım ücreti A kategorisi için 50 TL, B, C ve D kategorileri için 40 TL, 
 - B Kategorisi:	ELO ve UKD si 1300’ün altındaki sporcular
 - C Kategorisi: (9-10 Yaş)	2008 ve 2009 doğumlu sporcular
 - D Kategorisi: (7-8 Yaş)	2010 ve 2011 doğumlu sporcular
-- Minikler: (5-6-7 Yaş)	2011 ve sonrası doğumlu sporcular
+- Minikler: (5-6 Yaş)	2012 ve sonrası doğumlu sporcular
