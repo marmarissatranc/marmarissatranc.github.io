@@ -6,8 +6,6 @@ kategoriler: A; B; C; D; Minikler
 tsf-hizli-turnuva-no: 
 fide-turnuva-no: 
 
-
-
 yonerge-adlari: ELO; Minikler
 oyunlar: 0
 
@@ -54,9 +52,9 @@ oduller:
       kazananlar: 
   - kategori:
       adi: D
-      oduller: 1. Kupa; 2. Kupa; 3. Kupa; En iyi bayan sporcuya kupa
+      oduller: 1. Kupa; 2. Kupa; 3. Kupa; En iyi bayan sporcuya kupa ve bütün sporculara madalya
       kazananlar: 
   - kategori:
       adi: Minikler
-      oduller: Katılan tüm sporculara madalya
+      oduller: 1. Kupa; 2. Kupa; 3. Kupa; En iyi bayan sporcuya kupa ve bütün sporculara madalya
       kazananlar:
