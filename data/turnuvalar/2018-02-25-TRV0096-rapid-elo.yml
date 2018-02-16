@@ -35,7 +35,7 @@ programlar:
            - gun: 03 Mart 2018 Cumartesi
              turlar: Son Başvuru-20:00
            - gun: 04 Mart 2018 Pazar
-             turlar: Kayıt Kontrol-10:00; 1.Tur-14:00; 2.Tur-15:00; 3.Tur-16:00; Ödül Töreni-18:00
+             turlar: Kayıt Kontrol-09:45; 1.Tur eşlendirmesinin ilanı-10:00; 1.Tur-13:00; 2.Tur-14:00; 3.Tur-15:00; 4.Tur-16:00; 5.Tur-17:00; Ödül Töreni-Son tur bitiminden sonra
 
 oduller:
   - kategori:
