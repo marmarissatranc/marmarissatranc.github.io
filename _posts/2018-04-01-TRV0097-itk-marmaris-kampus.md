@@ -5,7 +5,7 @@ yonerge: 1
 basvuru: 1
 ---
 
-3. Geleneksel İTK Marmaris Kampüsü Rapid ELO Satranç Turnuvası A,B,C,D ve Minikler kategorileri için 1 Nisan 2018 tarihinden İTK Marmaris Kampüsü'nde gerçekleştirilecek.
+3.Geleneksel İTK Marmaris Kampüsü Rapid ELO Satranç Turnuvası A,B,C,D ve Minikler kategorileri için 1 Nisan 2018 tarihinden İTK Marmaris Kampüsü'nde gerçekleştirilecek.
 
 A,B,C,D kategorilerinde 45 dakika, Minikler kategorisinde 25 dakika eklemesiz zaman temposuyla 5 tur üzerinden oynanacak ve bütün maçlar bir günde sona erecek.
 
