@@ -13,6 +13,8 @@ Turnuva sonuçları gerekli şartlar sağlandığı takdirde Rapid ELO ve UHS he
 
 Katılım ücreti A kategorisi için 50 TL, B, C ve D kategorileri için 40 TL, Minikler kategorisi için 30 TL’dir.
 
+**Turnuva 1999 ve sonrası doğumlu sporculara açıktır.**
+
 - A Kategorisi: ELO ve UKD si 2200’ün altındaki sporcular
 - B Kategorisi:	ELO ve UKD si 1300’ün altındaki sporcular
 - C Kategorisi: (9-10 Yaş)	2008 ve 2009 doğumlu sporcular
