@@ -18,7 +18,7 @@ Turnuva sonuçları A, B ve C kategorilerinde UKD hesaplamalarında kullanılaca
 
 **Turnuva 2004 ve sonrası doğumlu sporculara açıktır.**
 
-* A Kategorisi (14 yaş altı - 2004 ve sonrası doğumlu sporcular)
-* B Kategorisi (10 yaş altı - 2008 ve sonrası doğumlu sporcular)
-* C Kategorisi (7 yaş altı - 2011 ve 2012 doğumlu sporcular)
+* A Kategorisi (14 yaş altı - 2005 ve 2008 arası doğumlu sporcular)
+* B Kategorisi (10 yaş altı - 2009 ve 2010 doğumlu sporcular)
+* C Kategorisi (8 yaş altı - 2011 ve 2012 doğumlu sporcular)
 * Minikler  (2012, 2013 ve 2014 doğumlu sporcular)
