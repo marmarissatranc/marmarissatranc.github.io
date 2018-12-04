@@ -18,20 +18,20 @@ programlar:
   - program:
        adi: A, B
        tablo:
-           - gun: 15 Aralık 2018 Cuma
+           - gun: 14 Aralık 2018 Cuma
              turlar: Son Başvuru-18:00
-           - gun: 16 Aralık 2018 Cumartesi
+           - gun: 15 Aralık 2018 Cumartesi
              turlar: Kayıt Kontrol-09:15 / 09:45;Teknik Toplantı-10:00; 1.Tur eşlendirmesinin ilanı-12:30;1.Tur-18:00
-           - gun: 17 Aralık 2018 Pazar
+           - gun: 16 Aralık 2018 Pazar
              turlar: 2.Tur-10:00;3.Tur-12:30;4.Tur-15:00;5.Tur-17:30;Ödül Töreni-Son turun bitiminden sonra
   - program:
        adi: C
        tablo:
-           - gun: 22 Aralık 2018 Cuma
+           - gun: 21 Aralık 2018 Cuma
              turlar: Son Başvuru-18:00
-           - gun: 23 Aralık 2018 Cumartesi
+           - gun: 22 Aralık 2018 Cumartesi
              turlar: Kayıt Kontrol-09:15 / 09:45;Teknik Toplantı-10:00; 1.Tur eşlendirmesinin ilanı-12:30;1.Tur-18:00
-           - gun: 24 Aralık 2018 Pazar
+           - gun: 23 Aralık 2018 Pazar
              turlar: 2.Tur-10:00;3.Tur-12:30;4.Tur-15:00;5.Tur-17:30;Ödül Töreni-Son turun bitiminden sonra
   - program:
        adi: Minikler
