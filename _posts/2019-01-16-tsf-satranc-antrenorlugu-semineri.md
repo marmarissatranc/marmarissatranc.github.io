@@ -10,4 +10,4 @@ Eğitime katılım için gerekli koşullar ve evraklar için lütfen aşağıdak
 
 <a href="{{ site.github.url }}{{site.data.constants.image_path}}tsf-antrenorluk-semineri.pdf" target="_blank">1. Kademe Yardımcı Antrenör Yetiştirme Kursu Hakkında Bilgilendirme</a>
 
-Ön kayıt için : 
+**Ön kayıt için :** <a href="https://goo.gl/forms/bvGhm9pNd7JHpTvN2 " target="_blank">Başvuru Formu</a>
