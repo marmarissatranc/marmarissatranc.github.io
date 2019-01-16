@@ -8,4 +8,6 @@ Eğitmen: TSF Marmaris Satranç  İlçe Temsilcisi  ve 3.Kademe Satranç Antren�
 
 Eğitime katılım için gerekli koşullar ve evraklar için lütfen aşağıdaki dosyayı indirin. 
 
+<a href="{{ site.github.url }}{{site.data.constants.image_path}}tsf-antrenorluk-semineri.pdf" target="_blank">1. Kademe Yardımcı Antrenör Yetiştirme Kursu Hakkında Bilgilendirme</a>
+
 Ön kayıt için : 
