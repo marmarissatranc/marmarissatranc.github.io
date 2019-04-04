@@ -22,7 +22,7 @@ Turnuva 2005 ve sonrası doğumlu sporculara açıktır.
 * C Kategorisi (8 yaş altı - 2011 ve 2012 doğumlu sporcular)
 * Minikler (2012, 2013 ve 2014 doğumlu sporcular)
 
-**Kayıt için :** <a href="https://forms.gle/NGJHmGW9hGAoJBsXA" target="_blank">Başvuru Formu</a>
+**Kayıt için :** <a href="http://marmarissatranc.com/turnuvalar/2019-04-23-TRV0103-23-nisan-turnuvasi/basvuru">Başvuru Formu</a>
 
 _Başvurunuz kısa süre sonra görüntülenecektir. Tekrar başvurmanıza gerek yoktur._
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3OnYYwly6ub4r9LbBaNZCJce7gUe1LDKOZaIh84xKKLyh2tv2Pv7ChKumHUbfa53ojQzSuqHqdaXB/pubhtml?widget=true&amp;headers=false" width="720" height="300">
