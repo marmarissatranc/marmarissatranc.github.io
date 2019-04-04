@@ -11,8 +11,8 @@ oyunlar: 0
 
 facebook-album: 
 
-basvuru-form: 
-basvuru-listesi: 
+basvuru-form: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSerLIX6bMAX2qjaj41OA3d2jsXT3qgbJbqh46XP_ks_-7RtJQ/viewform?embedded=true" width="720" height="2100" frameborder="0" marginheight="0" marginwidth="0">Yükleniyor...</iframe>
+basvuru-listesi: <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3OnYYwly6ub4r9LbBaNZCJce7gUe1LDKOZaIh84xKKLyh2tv2Pv7ChKumHUbfa53ojQzSuqHqdaXB/pubhtml?widget=true&amp;headers=false" width="720" height="800"></iframe>
 
 programlar:
   - program:
