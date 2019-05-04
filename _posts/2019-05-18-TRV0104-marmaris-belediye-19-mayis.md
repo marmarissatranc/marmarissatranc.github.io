@@ -21,7 +21,7 @@ Turnuva 1999 ve sonrası doğumlu sporculara açıktır.
 * B Kategorisi (14 Yaş altı / 2005 ve sonrası doğumlu sporcular)
 * C Kategorisi (12 Yaş altı / 2007 ve sonrası doğumlu sporcular)
 * D Kategorisi (8 Yaş altı / 2011 ve 2012 doğumlu sporcular)
-* Minikler (5-6 Yaş / 2012, 2013, 2014 doğumlu sporcular)
+* Minikler (5-6-7 Yaş / 2012, 2013, 2014 doğumlu sporcular)
 
 **Kayıt için :** <a href="https://forms.gle/vZKYkYaZYfnTovYg6" target="_blank">Başvuru Formu</a>
 
