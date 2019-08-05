@@ -21,7 +21,7 @@ Turnuva 2005 ve sonrası doğumlu sporculara açıktır.
 * B Kategorisi (2011 ve 2012 doğumlu sporcular)
 * Minikler (2013 ve 2014 doğumlu sporcular)
 
-**Kayıt için :** <a href="https://forms.gle/SZjF4fhd8CfN37iX9" target="_blank">Başvuru Formu</a>
+**Ön kayıt için :** <a href="https://forms.gle/SZjF4fhd8CfN37iX9" target="_blank">Ön Kayıt Formu</a>
 
-_Başvurunuz kısa süre sonra görüntülenecektir. Tekrar başvurmanıza gerek yoktur._
+_Kaydınız kısa süre sonra görüntülenecektir. Tekrar kayıt oluşturmanıza gerek yoktur._
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQAOcu8ybCq8ojX4oYDnqlECGzNfG-W1fwXuwjukGT3-oGVu9JMHimAmfCS-xJijD9CHHEiFba5xm48/pubhtml?widget=true&amp;headers=false" width="720" height="300"></iframe>
