@@ -1,11 +1,11 @@
 ---
-title: Marmaris Belediyesi 30 Ağustos Satranç Turnuvası Başlıyor!
+title: Marmaris Belediyesi 30 Ağustos Zafer Bayramı Satranç Turnuvası Başlıyor!
 odul: 0
 yonerge: 1
 basvuru: 1
 ---
 
-Marmaris Belediyesi 30 Ağustos Satranç Turnuvası 29-30 Ağustos tarihlerinde İndigo Satranç Eğitim Merkezi’nde gerçekleştirilecek.
+Marmaris Belediyesi 30 Ağustos Zafer Bayramı Satranç Turnuvası 29-30 Ağustos tarihlerinde İndigo Satranç Eğitim Merkezi’nde gerçekleştirilecek.
 
 A ve B kategorileri için ilk tur 29 Ağustos Perşembe günü saat 19:00’da başlayacak, sonraki turlar 30 Ağustos Cuma günü oynanacak.
 
