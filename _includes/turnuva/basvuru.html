@@ -1,4 +1,4 @@
-<h4> Başvuru </h4>
+<h4> Ön Kayıt </h4>
 {{ content }}
 
 <div class="row">
@@ -6,15 +6,15 @@
 
 {%- if pagedata.turnuva-durum == 1 -%}
 
-        <h4>Başvurular sona ermiştir.</h4>
+        <h4>Kayıtlar sona ermiştir.</h4>
         <h4>İletişim için: {{ site.data.constants.contact }}</h4>
 {%- else -%}
         {%- if pagedata.basvuru-form -%}
-            <p class="bg-warning">Başvurunuzun oyuncular listesine eklenmesi zaman alabilir. Tekrar başvurmanıza gerek yoktur.</p>
-            <p class="bg-warning">Bilgilerinizi girdikten sonra "Submit" tuşuna basınız.</p>
+            <p class="bg-warning">Kaydınızın oyuncular listesine eklenmesi zaman alabilir. Tekrar kayıt oluşturmanıza gerek yoktur.</p>
+            <p class="bg-warning">Bilgilerinizi girdikten sonra Gönder(Submit) tuşuna basınız.</p>
             {{ pagedata.basvuru-form }}
         {%- else -%}
-                <h4>Başvurular için: {{ site.data.constants.contact }}</h4>
+                <h4>Ön kayıt için: {{ site.data.constants.contact }}</h4>
         {%- endif -%}
 
 {%- endif -%}
