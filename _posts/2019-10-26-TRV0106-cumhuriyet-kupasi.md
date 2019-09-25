@@ -1,5 +1,5 @@
 ---
-title: Marmaris 15. Geleneksel Atatürk ve Cumhuriyet Kupası Başlıyor!
+title: Marmaris 16. Geleneksel Atatürk ve Cumhuriyet Kupası Başlıyor!
 odul: 0
 yonerge: 1
 basvuru: 1
