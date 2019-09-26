@@ -8,15 +8,18 @@ basvuru: 1
 Marmaris İndigo 16. Geleneksel Atatürk ve Cumhuriyet Kupası Satranç Turnuvası 26-27 Ekim 2019 tarihlerinde 
 İndigo Satranç Merkezi’nde gerçekleştirilecek.
 
-Tüm kategoriler için ilk tur 26 Ekim Cumartesi günü saat: 17:00’de başlayacak, turnuva 27 Ekim Pazar günü oynanacak turlarla tamamlanacaktır.
+A, B ve C kategorileri için ilk tur 26 Ekim Cumartesi günü saat: 17:00’de başlayacak, turnuva 27 Ekim Pazar günü oynanacak turlarla tamamlanacaktır.
 
-Turnuva sonuçları UKD hesaplamalarında kullanılacaktır. Turnuva katkı payı olan 50 TL, kayıt kontrol sırasında makbuz karşılığı alınacaktır.
+Minikler Kategorisi için ilk tur 27 Ekim Pazar günü saat 15:30’da başlayacak ve bütün maçlar aynı gün oynanacaktır.
+
+A, B ve C kategorilerine ait turnuva sonuçları UKD hesaplamalarında kullanılacaktır. Bu kategoriler için turnuva katkı payı 50 TL'dir. Minikler kategorisi için 40 TL'dir. Katkı payları kayıt kontrol sırasında makbuz karşılığı alınacaktır.
 
 **Turnuva 2004 ve sonrası doğumlu sporculara açıktır.**
 
 * A Kategorisi (16 yaş altı - 2004 - 2009 doğumlu sporcular)
 * B Kategorisi (10 yaş altı - 2010 ve 2011 doğumlu sporcular)
 * C Kategorisi (8 yaş altı - 2012 ve 2013 doğumlu sporcular)
+* Minikler (2013-2014 ve 2015 doğumlu sporcular)
 
 **Ön kayıt için :** <a href="https://forms.gle/s1jsRYurmFrWkXKT7" target="_blank">Ön Kayıt Formu</a>
 
