@@ -1,11 +1,11 @@
 ---
-title: Marmaris İndigo Aralık Ayı Satranç Turnuvası Başlıyor!
+title: Marmaris İndigo Aralık Ayı UKD Satranç Turnuvası Başlıyor!
 odul: 0
 yonerge: 1
 basvuru: 1
 ---
 
-Marmaris İndigo Aralık Ayı Satranç Turnuvası 7-8 Aralık 2019 tarihlerinde İndigo Satranç Merkezi’nde gerçekleştirilecek.
+Marmaris İndigo Aralık Ayı UKD Satranç Turnuvası 7-8 Aralık 2019 tarihlerinde İndigo Satranç Merkezi’nde gerçekleştirilecek.
 
 A, B ve C kategorileri için ilk tur 7 Aralık Cumartesi günü saat: 17:00’de başlayacak, turnuva 8 Aralık Pazar günü oynanacak turlarla tamamlanacaktır.
 
