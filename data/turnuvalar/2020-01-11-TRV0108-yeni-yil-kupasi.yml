@@ -1,7 +1,7 @@
 adi: Marmaris İndigo Yeni Yıl Kupası Satranç Turnuvası
 
 turnuva-durum: 0
-kategoriler: A; B; C
+kategoriler: A; B; C; Minikler
 
 tsf-hizli-turnuva-no: 
 fide-turnuva-no: 
@@ -23,6 +23,13 @@ programlar:
              turlar: Kayıt Kontrol-14:30 / 16:30;Teknik Toplantı-16:15; 1.Tur eşlendirmesinin ilanı-16:45;1.Tur-17:00;2.Tur-19:30
            - gun: 12 Ocak 2020 Pazar
              turlar: 3.Tur-10:00;4.Tur-12:30;5.Tur-15:00;Ödül Töreni-Son turun bitiminden sonra
+  - program:
+       adi: Minikler
+       tablo:
+           - gun: 10 Ocak 2020 Cuma
+             turlar: Son Başvuru-17:00
+           - gun: 12 Ocak 2020 Pazar
+             turlar: Kayıt Kontrol-14:30 / 15:00; Teknik Toplantı-15:00; 1.Tur eşlendirmesinin ilanı-15:20; 1.Tur-15:30; 2.Tur-16:15; 3.Tur-17:00; Ödül Töreni-Son turun bitiminden sonra
              
 oduller:
   - kategori:
@@ -37,3 +44,6 @@ oduller:
       adi: C
       oduller: 1. Kupa; 2. Kupa; 3. Kupa
       kazananlar: 
+  - kategori:
+      adi: Minikler
+      oduller: Bütün sporculara madalya verilecektir.
