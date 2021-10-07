@@ -1,0 +1,40 @@
+adi: Marmaris İndigo 17. Geleneksel Atatürk ve Cumhuriyet Kupası Satranç Turnuvası
+
+turnuva-durum: 0
+kategoriler: A; B; C
+
+tsf-hizli-turnuva-no: 
+fide-turnuva-no: 
+
+yonerge-adlari: ELO
+oyunlar: 0
+
+facebook-album: 
+
+basvuru-form: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdXuBnzvgki04cMDbfx53jicjrWSAqst5hyJAhCPpFqxgsTGg/viewform?embedded=true" width="720" height="2100" frameborder="0" marginheight="0" marginwidth="0">Yükleniyor…</iframe>
+basvuru-listesi: <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQQSxLX94jzTA234fz6f_MafCrilFoM01KfXZ9iHmIL7zlWnmv-g9RwcWhjw-ssEI41t7i89YVVcquG/pubhtml?gid=962273673&amp;single=true&amp;widget=true&amp;headers=false" width="720" height="800"></iframe>
+
+programlar:
+  - program:
+       adi: A, B, C
+       tablo:
+           - gun: 29 Ekim 2021 Cuma
+             turlar: Son Başvuru-17:00
+           - gun: 30 Ekim 2021 Cumartesi
+             turlar: Kayıt Kontrol-09:00 / 09:30;Teknik Toplantı-09:30; 1.Tur eşlendirmesinin ilanı-09:50;1.Tur-13:00;2.Tur-15:30;3.Tur-18:00
+           - gun: 31 Ekim 2021 Pazar
+             turlar: 4.Tur-13:00;5.Tur-15:30;Ödül Töreni-Son turun bitiminden sonra
+             
+oduller:
+  - kategori:
+      adi: A
+      oduller: 1. Kupa; 2. Kupa; 3. Kupa
+      kazananlar: 
+  - kategori:
+      adi: B
+      oduller: 1. Kupa; 2. Kupa; 3. Kupa
+      kazananlar: 
+  - kategori:
+      adi: C
+      oduller: 1. Kupa; 2. Kupa; 3. Kupa
+      kazananlar: 
