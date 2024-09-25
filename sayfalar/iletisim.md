@@ -24,7 +24,7 @@ layout: default
   0537 766 32 64 <br/>
 </p>
 <br/>
-Armutalan Mahallesi Vatan Caddesi No:28 <br/>
+Hatipirimi Mah. 148 Sok. No:9 Marmaris Belediyesi Yüzme Eğitim Merkezi Bahçe tarafı/Amfi tiyatro karşısı <br/>
 Marmaris / Muğla <br/>
 </div>
 
@@ -40,7 +40,7 @@ Marmaris / Muğla <br/>
   width="100%"
   height="300"
   frameborder="0" style="border:0"
-  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCLsr5EE3s338Y31Aa2jKgxf0Pv5TENff8&q=36.851696,28.250849&maptype=satellite" allowfullscreen>
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCLsr5EE3s338Y31Aa2jKgxf0Pv5TENff8&q=İndigo%20Satranç%20Cafe&maptype=satellite" allowfullscreen>
 </iframe>
 
   </div>
