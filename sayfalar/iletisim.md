@@ -24,8 +24,9 @@ layout: default
   0537 766 32 64 <br/>
 </p>
 <br/>
-Hatipirimi Mah. 148 Sok. No:9 Marmaris Belediyesi Yüzme Eğitim Merkezi Bahçe tarafı/Amfi tiyatro karşısı <br/>
-Marmaris / Muğla <br/>
+Hatipirimi Mah. 148 Sok. No:9 <br/>
+Marmaris Belediyesi Yüzme Eğitim Merkezi Bahçe tarafı/Amfi tiyatro karşısı <br/>
+48700 Marmaris / Muğla <br/>
 </div>
 
 </div>
